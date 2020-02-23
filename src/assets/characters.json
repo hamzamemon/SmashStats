@@ -1,0 +1,106 @@
+[
+  {
+    "Id": 1,
+    "Name": "Dr. Mario"
+  },
+  {
+    "Id": 2,
+    "Name": "Mario"
+  },
+  {
+    "Id": 3,
+    "Name": "Luigi"
+  },
+  {
+    "Id": 4,
+    "Name": "Bowser"
+  },
+  {
+    "Id": 5,
+    "Name": "Peach"
+  },
+  {
+    "Id": 6,
+    "Name": "Yoshi"
+  },
+  {
+    "Id": 7,
+    "Name": "Donkey Kong"
+  },
+  {
+    "Id": 8,
+    "Name": "Captain Falcon"
+  },
+  {
+    "Id": 9,
+    "Name": "Ganondorf"
+  },
+  {
+    "Id": 10,
+    "Name": "Falco"
+  },
+  {
+    "Id": 11,
+    "Name": "Fox"
+  },
+  {
+    "Id": 12,
+    "Name": "Ness"
+  },
+  {
+    "Id": 13,
+    "Name": "Ice Climbers"
+  },
+  {
+    "Id": 14,
+    "Name": "Kirby"
+  },
+  {
+    "Id": 15,
+    "Name": "Samus"
+  },
+  {
+    "Id": 16,
+    "Name": "Zelda"
+  },
+  {
+    "Id": 17,
+    "Name": "Sheik"
+  },
+  {
+    "Id": 18,
+    "Name": "Link"
+  },
+  {
+    "Id": 19,
+    "Name": "Young Link"
+  },
+  {
+    "Id": 20,
+    "Name": "Pichu"
+  },
+  {
+    "Id": 21,
+    "Name": "Pikachu"
+  },
+  {
+    "Id": 22,
+    "Name": "Jigglypuff"
+  },
+  {
+    "Id": 23,
+    "Name": "Mewtwo"
+  },
+  {
+    "Id": 24,
+    "Name": "Mr. Game & Watch"
+  },
+  {
+    "Id": 25,
+    "Name": "Marth"
+  },
+  {
+    "Id": 26,
+    "Name": "Roy"
+  }
+]

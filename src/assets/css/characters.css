@@ -1,0 +1,14 @@
+#character-main {
+  padding: 0px 15px;
+}
+
+#character-name{
+  text-align: center;
+}
+
+.move-card-deck {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+  width: 90%;
+}

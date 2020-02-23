@@ -1,0 +1,393 @@
+{
+  "name": "Dr. Mario",
+  "normals": {
+    "jab1": {
+      "FAF": 16,
+      "hitboxActive": "2-3",
+      "damage": "4%",
+      "angle": "83/83/85",
+      "BKB": "0",
+      "WBKB": "30",
+      "KBG": "100",
+      "shieldDamage": "?",
+      "moveName": "Jab 1"
+    },
+    "jab2": {
+      "FAF": 19,
+      "hitboxActive": "3-4",
+      "damage": "3%",
+      "angle": "83/83/85",
+      "BKB": "0",
+      "WBKB": "30",
+      "KBG": "100",
+      "shieldDamage": "?",
+      "moveName": "Jab 2"
+    },
+    "jab3": {
+      "FAF": 23,
+      "hitboxActive": "5-9",
+      "damage": "6%",
+      "angle": "361",
+      "BKB": "18",
+      "WBKB": "0",
+      "KBG": "100",
+      "shieldDamage": "?",
+      "moveName": "Jab 3"
+    },
+    "dashattack": {
+      "FAF": 43,
+      "IASA": 38,
+      "hitboxActive": "6-9/10-25",
+      "damage": "9/9/8/9%",
+      "angle": "80/80/85/80",
+      "BKB": "70/70/60/70",
+      "WBKB": "0",
+      "KBG": "30/30/50/30",
+      "shieldDamage": "?",
+      "moveName": "Dash Attack"
+    },
+    "utilt": {
+      "FAF": 30,
+      "hitboxActive": "4/5-13",
+      "damage": "10/10/10/8/8/8%",
+      "angle": "361/361/361/100/100/100",
+      "BKB": "20/20/20/30/30/30",
+      "WBKB": "0",
+      "KBG": "95/95/95/122/120/118",
+      "shieldDamage": "?",
+      "moveName": "Up Tilt"
+    },
+    "ftilt": {
+      "FAF": 29,
+      "hitboxActive": "4-8",
+      "damage": "9% (upwards) 8% (neutral) 7% (downwards)",
+      "angle": "361",
+      "BKB": "11 (upwards) 10 (neutral) 9 (downwards)",
+      "WBKB": "0",
+      "KBG": "100",
+      "shieldDamage": "?",
+      "moveName": "Forward Tilt"
+    },
+    "dtilt": {
+      "FAF": 34,
+      "hitboxActive": "5-8",
+      "damage": "9%",
+      "angle": "150",
+      "BKB": "20",
+      "WBKB": "0",
+      "KBG": "82",
+      "shieldDamage": "?",
+      "moveName": "Down Tilt"
+    },
+    "usmash": {
+      "FAF": 40,
+      "hitboxActive": "9-10/11",
+      "damage": "16/16/13/13%",
+      "angle": "83/259/76/259",
+      "BKB": "35",
+      "WBKB": "0",
+      "KBG": "95",
+      "shieldDamage": "?",
+      "moveName": "Up Smash",
+      "chargeFrame": 7,
+      "invulnerability": "9-11 (head)"
+    },
+    "fsmash": {
+      "FAF": 42,
+      "hitboxActive": "12-16",
+      "damage": "20% (upwards) 19% (neutral) 18% (downwards)",
+      "angle": "361",
+      "BKB": "30",
+      "WBKB": "0",
+      "KBG": "97",
+      "shieldDamage": "?",
+      "moveName": "Forward Smash",
+      "chargeFrame": 5
+    },
+    "dsmash": {
+      "FAF": 38,
+      "hitboxActive": "5-6/14-16",
+      "damage": "18/17/15/13%",
+      "angle": "361",
+      "BKB": "45/45/40/40",
+      "WBKB": "0",
+      "KBG": "75",
+      "shieldDamage": "?",
+      "moveName": "Down Smash",
+      "chargeFrame": 3
+    }
+  },
+  "aerials": {
+    "nair": {
+      "FAF": 46,
+      "landingLag": 18,
+      "lcancelledLandingLag": 9,
+      "autoCancelBefore": 3,
+      "autoCancelAfter": 35,
+      "hitboxActive": "3-19/20-31",
+      "damage": "10/10/14/14%",
+      "angle": "50/50/361/361",
+      "BKB": "20",
+      "WBKB": "0",
+      "KBG": "100",
+      "shieldDamage": "?",
+      "moveName": "Neutral Air"
+    },
+    "uair": {
+      "FAF": 33,
+      "landingLag": 18,
+      "lcancelledLandingLag": 9,
+      "autoCancelBefore": 2,
+      "autoCancelAfter": 15,
+      "hitboxActive": "4-9",
+      "damage": "10%",
+      "angle": "55",
+      "BKB": "0",
+      "WBKB": "0",
+      "KBG": "100",
+      "shieldDamage": "?",
+      "moveName": "Up Air"
+    },
+    "fair": {
+      "FAF": 74,
+      "IASA": 60,
+      "landingLag": 25,
+      "lcancelledLandingLag": 12,
+      "autoCancelBefore": 3,
+      "autoCancelAfter": 42,
+      "hitboxActive": "18-22",
+      "damage": "17/16%",
+      "angle": "60",
+      "BKB": "50/40",
+      "WBKB": "0",
+      "KBG": "100",
+      "shieldDamage": "?",
+      "moveName": "Forward Air"
+    },
+    "dair": {
+      "FAF": 38,
+      "IASA": 38,
+      "landingLag": 24,
+      "lcancelledLandingLag": 12,
+      "autoCancelBefore": 6,
+      "autoCancelAfter": 35,
+      "hitboxActive": "10-11/13-14/16-17/19-20/22-23/25-26/28-29",
+      "damage": "3%",
+      "angle": "80",
+      "BKB": "0",
+      "WBKB": "30",
+      "KBG": "100",
+      "shieldDamage": "?",
+      "moveName": "Down Air"
+    },
+    "bair": {
+      "FAF": 28,
+      "landingLag": 18,
+      "lcancelledLandingLag": 9,
+      "autoCancelBefore": 6,
+      "autoCancelAfter": 18,
+      "hitboxActive": "6-8/9-16",
+      "damage": "8/8/7/7%",
+      "angle": "28/28/361/361",
+      "BKB": "43/43/20/20",
+      "WBKB": "0",
+      "KBG": "65/65/100/100",
+      "shieldDamage": "?",
+      "moveName": "Back Air"
+    }
+  },
+  "specials": {
+    "neutralB": {
+      "FAF": 44,
+      "hitboxActive": "14-75",
+      "damage": "8%",
+      "angle": "?",
+      "BKB": "?",
+      "WBKB": "?",
+      "KBG": "?",
+      "shieldDamage": "?",
+      "moveName": "Up Special (Megavitamins)"
+  },
+  "upB": {
+    "FAF": 37,
+    "hitboxActive": "3-21",
+    "damage": "5/2/2/2/3%",
+    "angle": "?",
+    "BKB": "?",
+    "WBKB": "?",
+    "KBG": "?",
+    "shieldDamage": "?",
+    "moveName": "Up Special (Super Jump Punch)",
+    "invulnerability": "3"
+  },
+  "sideB": {
+    "FAF": 35,
+    "hitboxActive": "12-14",
+    "damage": "12/10/10%",
+    "angle": "110",
+    "BKB": "30",
+    "WBKB": "0",
+    "KBG": "80",
+    "shieldDamage": "4",
+    "moveName": "Side Special (Super Sheet)",
+    "reflects": "6-33"
+  },
+  "downB": {
+    "FAF": 80,
+    "hitboxActive": "8/14/21/28-29/38-39",
+    "damage": "3/2/2/3 (grounded) or 1 (aerial)/4%",
+    "angle": "?",
+    "BKB": "?",
+    "WBKB": "?",
+    "KBG": "?",
+    "shieldDamage": "?",
+    "moveName": "Down Special (Dr. Tornado)"
+  }
+  },
+  "grabsThrows": {
+    "grab": {
+      "FAF": 30,
+      "hitboxActive": "7-8",
+      "moveName": "Grab"
+    },
+    "dashgrab": {
+      "FAF": 40,
+      "hitboxActive": "11-12",
+      "moveName": "Dash Grab"
+    },
+    "pummel": {
+      "FAF": 23,
+      "hitboxActive": "16",
+      "damage": "3%",
+      "angle": "80",
+      "BKB": "0",
+      "WBKB": "30",
+      "KBG": "100",
+      "moveName": "Pummel"
+    },
+    "uthrow": {
+      "FAF": 39,
+      "hitboxActive": "?",
+      "damage": "8%",
+      "angle": "?",
+      "BKB": "?",
+      "WBKB": "?",
+      "KBG": "80",
+      "moveName": "Up Throw"
+    },
+    "fthrow": {
+      "FAF": 28,
+      "hitboxActive": "12",
+      "damage": "9%",
+      "angle": "?",
+      "BKB": "60",
+      "WBKB": "?",
+      "KBG": "72",
+      "moveName": "Forward Throw"
+    },
+    "dthrow": {
+      "FAF": 39,
+      "hitboxActive": "?",
+      "damage": "6%",
+      "angle": "?",
+      "BKB": "?",
+      "WBKB": "?",
+      "KBG": "40",
+      "moveName": "Down Throw"
+    },
+    "bthrow": {
+      "FAF": 67,
+      "hitboxActive": "44 (throw) 1-43 (collateral)",
+      "damage": "12% (throw) 10% (collateral)",
+      "angle": "?",
+      "BKB": "80",
+      "WBKB": "?",
+      "KBG": "72",
+      "moveName": "Back Throw"
+    }
+  },
+  "misc": {
+    "ledgeStandUnder100": {
+      "FAF": 34,
+      "invulnerability": "1-30",
+      "moveName": "Ledge stand under 100%"
+    },
+    "ledgeStandOver100": {
+      "FAF": 59,
+      "invulnerability": "1-55",
+      "moveName": "Ledge stand over 100%"
+    },
+    "ledgeRollUnder100": {
+      "FAF": 49,
+      "invulnerability": "1-27",
+      "moveName": "Ledge roll under 100%"
+    },
+    "ledgeRollOver100": {
+      "FAF": 79,
+      "invulnerability": "1-56",
+      "moveName": "Ledge roll over 100%"
+    },
+    "ledgeAttackUnder100": {
+      "hitboxActive": "24-36",
+      "FAF": 55,
+      "damage": "6/8%",
+      "BKB": "?",
+            "WBKB": "?",
+
+            "KBG": "?",
+      "invulnerability": "1-20",
+      "moveName": "Ledge attack under 100%"
+    },
+    "ledgeAttackOver100": {
+      "hitboxActive": "40-44",
+      "FAF": 69,
+      "damage": "10%",
+      "BKB": "?",
+      "WBKB": "?",
+            "KBG": "?",
+      "invulnerability": "1-36",
+      "moveName": "Ledge attack over 100%"
+    },
+    "ledgeJumpUnder100": {
+      "FAF": 38,
+      "invulnerability": "1-15",
+      "moveName": "Ledge jump under 100%"
+    },
+    "ledgeJumpOver100": {
+      "FAF": 48,
+      "invulnerability": "1-19",
+      "moveName": "Ledge jump over 100%"
+    },
+    "getUpAttack": {
+      "hitboxActive": "?",
+      "FAF": "?",
+      "damage": "6%",
+      "BKB": "?",
+            "WBKB": "?",
+
+      "KBG": "?",
+      "invulnerability": "?",
+      "moveName": "Get Up attack"
+    },
+    "airDodge": {
+      "FAF": 48,
+      "invulnerability": "4-29",
+      "moveName": "Air Dodge"
+    },
+    "spotdodge": {
+      "FAF": 22,
+      "invulnerability": "2-15",
+      "moveName": "Spot Dodge"
+    },
+    "forwardRoll": {
+      "FAF": 31,
+      "invulnerability": "4-19",
+      "moveName": "Forward Roll"
+    },
+    "backwardsRoll": {
+      "FAF": 31,
+      "invulnerability": "4-19",
+      "moveName": "Backwards Roll"
+    }
+  }
+}
