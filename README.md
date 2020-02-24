@@ -9,17 +9,17 @@ Smash Stats is an application built with React to be a resource for the many dif
 * Start the project: `npm start`
 
 ### Current Features:
-Melee Frame Data
+* Melee Frame Data
 
 ### Upcoming Features:
-Create a domain
-Clean up the data
-Frame Data for the other games
-Gifs
-Shieldstun
-Game scripts
-Patch scripts differences
-Stage Data
-Character Attributes
-Kirby Hats
-Connect with a Discord bot
+* Create a domain
+* Clean up the data
+* Frame Data for the other games
+* Gifs
+* Shieldstun
+* Game scripts
+* Patch scripts differences
+* Stage Data
+* Character Attributes
+* Kirby Hats
+* Connect with a Discord bot
