@@ -1,122 +1,146 @@
-import React, { Component } from 'react';
-import '../assets/css/characters.css';
-import ImageHandler from '../ImageHandler';
-import Character from './Character';
-import MoveCard from './MoveCard';
+import React, { Component } from "react";
+import "../assets/css/styles.css";
+import ImageHandler from "../ImageHandler";
+import Character from "./Character";
+import MoveCard from "./MoveCard";
+import * as constants from "./Constants";
 
 class CharacterView extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
 
     var path = props.match.path;
-    var game = path.split('/').filter(x => x)[0].toLowerCase();
+    var game = path
+      .split("/")
+      .filter((x) => x)[0]
+      .toLowerCase();
     this.characterName = props.match.params.name;
+    this.constants = constants;
 
-    var data = require('../assets/characters/' + game + '/' + this.characterName + '.json');
-    this.characterData = new Character(data);
+    var data = require(`../${this.constants.CHARACTER_ASSETS}/${this.constants.MELEE}/${this.characterName}/${this.characterName}.json`);
+    this.characterData = new Character(data, game);
     this.state = {
-      data: data
+      data: data,
     };
   }
 
   render() {
     var self = this;
     if (this.state.data !== undefined) {
-
-      let normalCards = Object.keys(self.characterData.normals).map(function (key, i) {
+      const normalCards = Object.keys(self.characterData.normals).map((key, i) => {
         var moveData = self.characterData.normals[key];
         return (
-          <MoveCard key={moveData.moveName} move={moveData} />
-        )
+          <MoveCard
+            key={moveData.moveName}
+            move={moveData}
+            formattedName={this.characterData.formattedName}
+          />
+        );
       });
 
-      let aerialCards = Object.keys(self.characterData.aerials).map(function (key, i) {
+      const aerialCards = Object.keys(self.characterData.aerials).map((key, i) => {
         var moveData = self.characterData.aerials[key];
         return (
-          <MoveCard key={moveData.moveName} move={moveData} />
-        )
+          <MoveCard
+            key={moveData.moveName}
+            move={moveData}
+            formattedName={this.characterData.formattedName}
+          />
+        );
       });
 
-      let specialCards = Object.keys(self.characterData.specials).map(function (key, i) {
+      const specialCards = Object.keys(self.characterData.specials).map((key, i) => {
         var moveData = self.characterData.specials[key];
         return (
-          <MoveCard key={moveData.moveName} move={moveData} />
-        )
+          <MoveCard
+            key={moveData.moveName}
+            move={moveData}
+            formattedName={this.characterData.formattedName}
+          />
+        );
       });
 
-      let grabsThrowsCard = Object.keys(self.characterData.grabsThrows).map(function (key, i) {
+      const grabsThrowsCard = Object.keys(self.characterData.grabsThrows).map((key, i) => {
         var moveData = self.characterData.grabsThrows[key];
         return (
-          <MoveCard key={moveData.moveName} move={moveData} />
-        )
+          <MoveCard
+            key={moveData.moveName}
+            move={moveData}
+            formattedName={this.characterData.formattedName}
+          />
+        );
       });
 
-      let miscCard = Object.keys(self.characterData.misc).map(function (key, i) {
+      const miscCard = Object.keys(self.characterData.misc).map((key, i) => {
         var moveData = self.characterData.misc[key];
         return (
-          <MoveCard key={moveData.moveName} move={moveData} />
-        )
+          <MoveCard
+            key={moveData.moveName}
+            move={moveData}
+            formattedName={this.characterData.formattedName}
+          />
+        );
       });
 
       return (
-        <div id="character-main">
-        <h2 id="character-name">{this.state.data.name}</h2>
+        <div className="character-main">
+          <h2 className="character-name">{this.state.data.name}</h2>
 
-        <div id="characterImageDiv">
-        <img className={`character-list`}src={require("../assets/img/renders/" + this.characterName.toLowerCase().replace(/\./g, '').replace(/ /g, '_').replace(/&/g, 'and') + '.jpg')} alt={this.characterName} />
-        </div>
+          <div className="character-image-div">
+            <img
+              className={`character-list`}
+              src={require(`../assets/img/renders/${this.characterName
+                .toLowerCase()
+                .replace(/\./g, "")
+                .replace(/ /g, "_")
+                .replace(/&/g, "and")}.jpg`)}
+              alt={this.characterName}
+            />
+          </div>
 
-        <div>
-        <h3 className="moveHeader">Normals</h3>
-        <div className="move-card-deck">
-        {normalCards}
-        </div>
-        </div>
+          <div>
+            <h3 className="move-header">Normals</h3>
+            <div className="move-card-deck">{normalCards}</div>
+          </div>
 
-        <div>
-        <h3 className="moveHeader">Aerials</h3>
-        <div className="move-card-deck">
-        {aerialCards}
-        </div>
-        </div>
+          <div>
+            <h3 className="move-header">Aerials</h3>
+            <div className="move-card-deck">{aerialCards}</div>
+          </div>
 
-        <div>
-        <h3 className="moveHeader">Specials</h3>
-        <div className="move-card-deck">
-        {specialCards}
-        </div>
-        </div>
+          <div>
+            <h3 className="move-header">Specials</h3>
+            <div className="move-card-deck">{specialCards}</div>
+          </div>
 
-        <div>
-        <h3 className="moveHeader">Grabs/Throws</h3>
-        <div className="move-card-deck">
-        {grabsThrowsCard}
-        </div>
-        </div>
+          <div>
+            <h3 className="move-header">Grabs/Throws</h3>
+            <div className="move-card-deck">{grabsThrowsCard}</div>
+          </div>
 
-        <div>
-        <h3 className="moveHeader">Miscellaneous</h3>
-        <div className="move-card-deck">
-        {miscCard}
-        </div>
-        </div>
+          <div>
+            <h3 className="move-header">Miscellaneous</h3>
+            <div className="move-card-deck">{miscCard}</div>
+          </div>
         </div>
       );
-    }else{
-      if(this.state.error !== undefined){
-        return (
-          <div id="character-main">
-          <ImageHandler message={this.state.error} image={"error.png"} alt="Error" class="invalid-char-image" />
-          </div>
-        );
-      }else{
-        return (
-          <div id="character-main">
+    } else if (this.state.error !== undefined) {
+      return (
+        <div className="character-main">
+          <ImageHandler
+            message={this.state.error}
+            image={"error.png"}
+            alt="Error"
+            class="invalid-char-image"
+          />
+        </div>
+      );
+    } else {
+      return (
+        <div className="character-main">
           <ImageHandler />
-          </div>
-        );
-      }
-
+        </div>
+      );
     }
   }
 }

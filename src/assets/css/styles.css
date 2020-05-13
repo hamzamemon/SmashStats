@@ -1,0 +1,47 @@
+.character-main {
+  padding: 0px 15px;
+}
+
+.character-name{
+  text-align: center;
+}
+
+.move-header {
+  text-align: center;
+  background-color: #478987;
+  padding: 1.25rem;
+  margin-bottom: 2rem;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.move-card-deck {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.move-card {
+  border: 1px solid #ae0017;
+  min-width: 25rem;
+  flex-direction: column;
+  margin: 0 1rem 1rem 1rem;
+  font-size: 1.25rem;
+}
+
+.move-card-move-name {
+  background-color: #2b2b2b;
+  color: #ffffff;
+}
+
+.move-card div {
+  border: 1px solid #dddddd;
+  padding: .25rem;
+}
+
+.character-image-div {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 2rem;
+}

@@ -1,0 +1,584 @@
+{
+  "name": "Marth",
+  "normals": {
+    "jab1": {
+      "FAF": 27,
+      "IASA": 26,
+      "hitboxActive": "4-7",
+      "damage": "4/4/4/6%",
+      "angle": "361",
+      "BKB": "20/20/20/30",
+      "WBKB": "0",
+      "KBG": "50/50/50/60",
+      "shieldDamage": "?",
+      "moveName": "Jab 1",
+      "gifs": [
+        "jab1.gif"
+      ]
+    },
+    "jab2": {
+      "FAF": 28,
+      "IASA": 27,
+      "hitboxActive": "5-9",
+      "damage": "4/4/4/6%",
+      "angle": "361",
+      "BKB": "20/20/20/30",
+      "WBKB": "0",
+      "KBG": "50/50/50/60",
+      "shieldDamage": "?",
+      "moveName": "Jab 2",
+      "gifs": [
+        "jab2.gif"
+      ]
+    },
+    "dashattack": {
+      "FAF": 49,
+      "IASA": 40,
+      "hitboxActive": "12-15",
+      "damage": "11/9/9/12%",
+      "angle": "110/361/361/110",
+      "BKB": "70/35/35/70",
+      "WBKB": "0",
+      "KBG": "55/60/60/55",
+      "shieldDamage": "?",
+      "moveName": "Dash Attack",
+      "gifs": [
+        "dashattack.gif"
+      ]
+    },
+    "utilt": {
+      "FAF": 39,
+      "IASA": 32,
+      "hitboxActive": "6-8/9-12",
+      "damage": "9/8/12/10/9/13%",
+      "angle": "110/361/361/110/85/361/361/85",
+      "BKB": "40/40/40/50/40/30/30/50",
+      "WBKB": "0",
+      "KBG": "120/118/116/100/120/118/116/100",
+      "shieldDamage": "?",
+      "moveName": "Up Tilt",
+      "gifs": [
+        "utilt.gif"
+      ]
+    },
+    "ftilt": {
+      "FAF": 35,
+      "hitboxActive": "7-10",
+      "damage": "9/9/9/13%",
+      "angle": "361",
+      "BKB": "30/30/30/60",
+      "WBKB": "0",
+      "KBG": "70",
+      "shieldDamage": "?",
+      "moveName": "Forward Tilt",
+      "gifs": [
+        "ftilt.gif"
+      ]
+    },
+    "dtilt": {
+      "FAF": 49,
+      "IASA": 20,
+      "hitboxActive": "7-9",
+      "damage": "9/8/8/10%",
+      "angle": "30",
+      "BKB": "40/25/20/50",
+      "WBKB": "0",
+      "KBG": "40",
+      "shieldDamage": "?",
+      "moveName": "Down Tilt",
+      "gifs": [
+        "dtilt.gif"
+      ]
+    },
+    "usmash": {
+      "FAF": 54,
+      "chargeFrame": 7,
+      "IASA": 46,
+      "hitboxActive": "13-16",
+      "damage": "8/8/15/18%",
+      "angle": "70/70/90/90",
+      "BKB": "0/0/30/60",
+      "WBKB": "100/100/0/0",
+      "KBG": "100/100/80/80",
+      "shieldDamage": "?",
+      "moveName": "Up Smash",
+      "gifs": [
+        "usmash.gif"
+      ]
+    },
+    "fsmash": {
+      "FAF": 49,
+      "chargeFrame": 3,
+      "IASA": 48,
+      "hitboxActive": "10-13",
+      "damage": "14/14/14/20%",
+      "angle": "361",
+      "BKB": "60/60/60/80",
+      "WBKB": "0",
+      "KBG": "70",
+      "shieldDamage": "?",
+      "moveName": "Forward Smash",
+      "gifs": [
+        "fsmash.gif"
+      ]
+    },
+    "dsmash": {
+      "FAF": 64,
+      "chargeFrame": 3,
+      "IASA": 62,
+      "hitboxActive": "5-7/20-22",
+      "damage": "11/11/11/16/11/11/11/16%",
+      "angle": "75/361/361/70/75/361/361/75",
+      "BKB": "70/20/16/70/70/30/15/70",
+      "WBKB": "0",
+      "KBG": "72/100/100/100/72/100/100/100",
+      "shieldDamage": "?",
+      "moveName": "Down Smash",
+      "gifs": [
+        "dsmash.gif"
+      ]
+    }
+  },
+  "aerials": {
+    "nair": {
+      "FAF": 49,
+      "autoCancelBefore": 6,
+      "autoCancelAfter": 24,
+      "landingLag": 15,
+      "lcancelledLandingLag": 7,
+      "hitboxActive": "6-7/15-21",
+      "damage": "4/4/4/4/10/10/10/10%",
+      "angle": "100/100/100/90/361/361/361/361",
+      "BKB": "30/30/30/30/50/50/50/50",
+      "WBKB": "0",
+      "KBG": "40/40/40/40/80/80/80/80",
+      "shieldDamage": "?",
+      "moveName": "Neutral Air",
+      "gifs": [
+        "nair.gif"
+      ]
+    },
+    "uair": {
+      "FAF": 45,
+      "autoCancelBefore": 5,
+      "autoCancelAfter": 26,
+      "landingLag": 15,
+      "lcancelledLandingLag": 7,
+      "hitboxActive": "5-8",
+      "damage": "10/9/9/13%",
+      "angle": "80/80/80/90",
+      "BKB": "30/20/18/40",
+      "WBKB": "0",
+      "KBG": "70",
+      "shieldDamage": "?",
+      "moveName": "Up Air",
+      "gifs": [
+        "uair.gif"
+      ]
+    },
+    "fair": {
+      "FAF": 33,
+      "IASA": 30,
+      "autoCancelAfter": 26,
+      "landingLag": 15,
+      "lcancelledLandingLag": 7,
+      "hitboxActive": "4-7",
+      "damage": "10/9/9/13%",
+      "angle": "361/361/361/67",
+      "BKB": "30/20/20/42",
+      "WBKB": "0",
+      "KBG": "70",
+      "shieldDamage": "?",
+      "moveName": "Forward Air",
+      "gifs": [
+        "fair.gif"
+      ]
+    },
+    "dair": {
+      "FAF": 59,
+      "autoCancelBefore": 6,
+      "autoCancelAfter": 47,
+      "landingLag": 32,
+      "lcancelledLandingLag": 16,
+      "hitboxActive": "6-9",
+      "damage": "10/9/9/13%",
+      "angle": "80/361/361/290",
+      "BKB": "40/30/20/40",
+      "WBKB": "0",
+      "KBG": "70",
+      "shieldDamage": "?",
+      "moveName": "Down Air",
+      "gifs": [
+        "dair.gif"
+      ]
+    },
+    "bair": {
+      "FAF": 39,
+      "IASA": 35,
+      "autoCancelAfter": 31,
+      "landingLag": 24,
+      "lcancelledLandingLag": 12,
+      "hitboxActive": "7-11",
+      "damage": "10/9/9/13%",
+      "angle": "361",
+      "BKB": "30/25/10/30",
+      "WBKB": "0",
+      "KBG": "70",
+      "shieldDamage": "?",
+      "moveName": "Back Air",
+      "gifs": [
+        "bair.gif"
+      ]
+    }
+  },
+  "specials": {
+    "neutralB": {
+      "FAF": 11,
+      "hitboxActive": "5-10",
+      "damage": "7-27% (not fully charged) 28% (fully charged)",
+      "angle": "361",
+      "BKB": "30/30/34/40",
+      "WBKB": "0",
+      "KBG": "100",
+      "shieldDamage": "38/30/30/38 (not fully charged) 60 (fully charged)",
+      "moveName": "Neutral Special (Shield Breaker)",
+      "gifs": [
+        "neutralB.gif"
+      ]
+    },
+    "upB": {
+      "FAF": 39,
+      "hitboxActive": "5/6-10",
+      "damage": "13/10/10/7/7/6%",
+      "angle": "361/74/74/361/74/74",
+      "BKB": "80/60/60/20/20/20",
+      "WBKB": "0",
+      "KBG": "70/70/70/90/90/90",
+      "shieldDamage": "?",
+      "moveName": "Up Special (Dolphin Slash)",
+      "invulnerability": "5",
+      "gifs": [
+        "upB.gif"
+      ]
+    },
+    "sideB_1_s": {
+      "FAF": 29,
+      "hitboxActive": "6-8",
+      "damage": "4%",
+      "angle": "85/96/80/76",
+      "BKB": "55",
+      "WBKB": "0",
+      "KBG": "25",
+      "shieldDamage": "?",
+      "moveName": "Side Special (Dancing Blade 1 Side)",
+      "gifs": [
+        "sideB_1_s.gif"
+      ]
+    },
+    "sideB_2_u": {
+      "FAF": 40,
+      "hitboxActive": "12-15",
+      "damage": "5%",
+      "angle": "90/90/85/79",
+      "BKB": "30/60/70/85",
+      "WBKB": "0",
+      "KBG": "40",
+      "shieldDamage": "?",
+      "moveName": "Side Special (Dancing Blade 2 Up)",
+      "gifs": [
+        "sideB_2_u.gif"
+      ]
+    },
+    "sideB_2_nsd": {
+      "FAF": 40,
+      "hitboxActive": "14-16",
+      "damage": "5%",
+      "angle": "105/80/70/50",
+      "BKB": "16",
+      "WBKB": "0",
+      "KBG": "100",
+      "shieldDamage": "1",
+      "moveName": "Side Special (Dancing Blade 2 Neutral/Side/Down)",
+      "gifs": [
+        "sideB_2_nsd.gif"
+      ]
+    },
+    "sideB_3_u": {
+      "FAF": 46,
+      "hitboxActive": "13-17",
+      "damage": "6%",
+      "angle": "80",
+      "BKB": "60",
+      "WBKB": "0",
+      "KBG": "60",
+      "shieldDamage": "1",
+      "moveName": "Side Special (Dancing Blade 3 Up)",
+      "gifs": [
+        "sideB_3_u.gif"
+      ]
+    },
+    "sideB_3_ns": {
+      "FAF": 46,
+      "hitboxActive": "11-14",
+      "damage": "10%",
+      "angle": "361",
+      "BKB": "?",
+      "WBKB": "?",
+      "KBG": "160",
+      "shieldDamage": "1",
+      "moveName": "Side Special (Dancing Blade 3 Neutral/Side)",
+      "gifs": [
+        "sideB_3_ns.gif"
+      ]
+    },
+    "sideB_3_d": {
+      "FAF": 46,
+      "hitboxActive": "15-18",
+      "damage": "10%",
+      "angle": "270",
+      "BKB": "50",
+      "WBKB": "0",
+      "KBG": "100",
+      "shieldDamage": "1",
+      "moveName": "Side Special (Dancing Blade 3 Down)",
+      "gifs": [
+        "sideB_3_d.gif"
+      ]
+    },
+    "sideB_4_u": {
+      "FAF": 50,
+      "hitboxActive": "20-25",
+      "damage": "10%",
+      "angle": "80",
+      "BKB": "40",
+      "WBKB": "0",
+      "KBG": "130",
+      "shieldDamage": "1",
+      "moveName": "Side Special (Dancing Blade 4 Up)",
+      "gifs": [
+        "sideB_4_u.gif"
+      ]
+    },
+    "sideB_4_ns": {
+      "FAF": 50,
+      "hitboxActive": "23-26",
+      "damage": "14%",
+      "angle": "361",
+      "BKB": "15",
+      "WBKB": "0",
+      "KBG": "120",
+      "shieldDamage": "2",
+      "moveName": "Side Special (Dancing Blade 4 Neutral/Side)",
+      "gifs": [
+        "sideB_4_ns.gif"
+      ]
+    },
+    "sideB_4_d": {
+      "FAF": 60,
+      "hitboxActive": "13-15/19-21/25-27/31-33/37-38",
+      "damage": "3% (hits 1-4) 5% (hit 5)",
+      "angle": "80 (hits 1-4) 361 (hit 5)",
+      "BKB": "2 (hits 1-4) 20 (hit 5)",
+      "WBKB": "0",
+      "KBG": "40 (hits 1-4) 130 (hit 5)",
+      "shieldDamage": "?",
+      "moveName": "Side Special (Dancing Blade 4 Down)",
+      "gifs": [
+        "sideB_4_d.gif"
+      ]
+    },
+    "downB": {
+      "FAF": 46,
+      "hitboxActive": "14-20",
+      "damage": "7%",
+      "angle": "361",
+      "BKB": "90",
+      "WBKB": "0",
+      "KBG": "35",
+      "shieldDamage": "?",
+      "moveName": "Down Special (Counter)",
+      "invulnerability": "1-16",
+      "gifs": [
+        "downB.gif"
+      ]
+    }
+  },
+  "grabsThrows": {
+    "grab": {
+      "FAF": 30,
+      "hitboxActive": "7-8",
+      "moveName": "Grab",
+      "gifs": []
+    },
+    "dashgrab": {
+      "FAF": 40,
+      "hitboxActive": "10-11",
+      "moveName": "Dash Grab",
+      "gifs": []
+    },
+    "pummel": {
+      "FAF": 23,
+      "IASA": "",
+      "hitboxActive": "6-6",
+      "damage": "3%",
+      "angle": "80",
+      "BKB": "0",
+      "WBKB": "30",
+      "KBG": "100",
+      "shieldDamage": "?",
+      "moveName": "Pummel",
+      "gifs": []
+    },
+    "uthrow": {
+      "FAF": 44,
+      "hitboxActive": "?",
+      "damage": "4%",
+      "angle": "93",
+      "BKB": "?",
+      "WBKB": "?",
+      "KBG": "?",
+      "shieldDamage": "?",
+      "moveName": "Up Throw",
+      "gifs": []
+    },
+    "fthrow": {
+      "FAF": 31,
+      "hitboxActive": "?",
+      "damage": "3%",
+      "angle": "50",
+      "BKB": "?",
+      "WBKB": "?",
+      "KBG": "?",
+      "shieldDamage": "?",
+      "moveName": "Forward Throw",
+      "gifs": []
+    },
+    "dthrow": {
+      "FAF": 42,
+      "hitboxActive": "?",
+      "damage": "5%",
+      "angle": "135",
+      "BKB": "?",
+      "WBKB": "?",
+      "KBG": "50",
+      "shieldDamage": "?",
+      "moveName": "Down Throw",
+      "gifs": []
+    },
+    "bthrow": {
+      "FAF": 44,
+      "hitboxActive": "?",
+      "damage": "4%",
+      "angle": "?",
+      "BKB": "?",
+      "WBKB": "?",
+      "KBG": "60",
+      "shieldDamage": "?",
+      "moveName": "Back Throw",
+      "gifs": []
+    }
+  },
+  "misc": {
+    "ledgeStandUnder100": {
+      "FAF": "?",
+      "invulnerability": "?",
+      "moveName": "Ledge stand under 100%",
+      "gifs": []
+    },
+    "ledgeStandOver100": {
+      "FAF": "?",
+      "invulnerability": "?",
+      "moveName": "Ledge stand over 100%",
+      "gifs": []
+    },
+    "ledgeRollUnder100": {
+      "FAF": "?",
+      "invulnerability": "?",
+      "moveName": "Ledge roll under 100%",
+      "gifs": []
+    },
+    "ledgeRollOver100": {
+      "FAF": "?",
+      "invulnerability": "?",
+      "moveName": "Ledge roll over 100%",
+      "gifs": []
+    },
+    "ledgeAttackUnder100": {
+      "hitboxActive": "?",
+      "FAF": "?",
+      "damage": "8/6%",
+      "BKB": "?",
+      "WBKB": "?",
+      "KBG": "?",
+      "invulnerability": "?",
+      "moveName": "Ledge attack under 100%",
+      "gifs": []
+    },
+    "ledgeAttackOver100": {
+      "hitboxActive": "?",
+      "FAF": "?",
+      "damage": "8/6%",
+      "BKB": "?",
+      "WBKB": "?",
+      "KBG": "?",
+      "invulnerability": "?",
+      "moveName": "Ledge attack over 100%",
+      "gifs": []
+    },
+    "ledgeJumpUnder100": {
+      "FAF": "?",
+      "invulnerability": "?",
+      "moveName": "Ledge jump under 100%",
+      "gifs": []
+    },
+    "ledgeJumpOver100": {
+      "FAF": "?",
+      "invulnerability": "?",
+      "moveName": "Ledge jump over 100%",
+      "gifs": []
+    },
+    "getUpAttack": {
+      "hitboxActive": "?",
+      "FAF": "?",
+      "damage": "6%",
+      "invulnerability": "?",
+      "BKB": "?",
+      "WBKB": "?",
+      "KBG": "?",
+      "moveName": "Get Up attack",
+      "gifs": []
+    },
+    "airDodge": {
+      "FAF": 49,
+      "invulnerability": "4-29",
+      "moveName": "Air Dodge",
+      "gifs": [
+        "airDodge.gif"
+      ]
+    },
+    "spotDodge": {
+      "FAF": 27,
+      "invulnerability": "2-18",
+      "moveName": "Spot Dodge",
+      "gifs": [
+        "spotDodge.gif"
+      ]
+    },
+    "forwardRoll": {
+      "FAF": 35,
+      "invulnerability": "4-19",
+      "moveName": "Forward Roll",
+      "gifs": [
+        "forwardRoll.gif"
+      ]
+    },
+    "backwardsRoll": {
+      "FAF": 35,
+      "invulnerability": "4-23",
+      "moveName": "Backwards Roll",
+      "gifs": [
+        "backwardsRoll.gif"
+      ]
+    }
+  }
+}

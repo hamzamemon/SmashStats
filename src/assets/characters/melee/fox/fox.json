@@ -1,0 +1,487 @@
+{
+  "name": "Fox",
+  "normals": {
+    "jab1": {
+      "FAF": 17,
+      "IASA": 16,
+      "hitboxActive": "2-3",
+      "damage": "4%",
+      "angle": "70",
+      "BKB": "?",
+      "WBKB": "?",
+      "KBG": "100",
+      "shieldDamage": "?",
+      "moveName": "Jab 1",
+      "gifs": [
+        "jab1.gif"
+      ]
+    },
+    "jab2": {
+      "FAF": 20,
+      "IASA": 19,
+      "hitboxActive": "3-4",
+      "damage": "4%",
+      "angle": "70",
+      "BKB": "?",
+      "WBKB": "?",
+      "KBG": "100",
+      "shieldDamage": "?",
+      "moveName": "Jab 2",
+      "gifs": [
+        "jab2.gif"
+      ]
+    },
+    "rapidjab": {
+      "FAF": 36,
+      "hitboxActive": "3-4, 10-11, 17-18, 24-25, 31-32",
+      "damage": "1%",
+      "angle": "78",
+      "BKB": "10",
+      "WBKB": "?",
+      "KBG": "80",
+      "shieldDamage": "?",
+      "moveName": "Rapid Jab",
+      "gifs": [
+        "rapidjab.gif"
+      ]
+    },
+    "dashattack": {
+      "FAF": 36,
+      "hitboxActive": "4-7/8-17",
+      "damage": "7/5%",
+      "angle": "72",
+      "BKB": "35/20",
+      "WBKB": "0",
+      "KBG": "90",
+      "shieldDamage": "1",
+      "moveName": "Dash Attack",
+      "gifs": [
+        "dashattack.gif"
+      ]
+    },
+    "utilt": {
+      "FAF": 23,
+      "hitboxActive": "5-11",
+      "damage": "12/9%",
+      "angle": "110/84/80/80",
+      "BKB": "18",
+      "WBKB": "0",
+      "KBG": "140",
+      "shieldDamage": "?",
+      "moveName": "Up Tilt",
+      "gifs": [
+        "utilt.gif"
+      ]
+    },
+    "ftilt": {
+      "FAF": 27,
+      "hitboxActive": "5-8",
+      "damage": "9%",
+      "angle": "361",
+      "BKB": "0",
+      "WBKB": "0",
+      "KBG": "100",
+      "shieldDamage": "?",
+      "moveName": "Forward Tilt",
+      "gifs": [
+        "ftilt_upwards.gif",
+        "ftilt_neutral.gif",
+        "ftilt_downwards.gif"
+      ]
+    },
+    "dtilt": {
+      "FAF": 29,
+      "IASA": 28,
+      "hitboxActive": "7-9",
+      "damage": "10%",
+      "angle": "70/80/90",
+      "BKB": "25",
+      "WBKB": "0",
+      "KBG": "125",
+      "shieldDamage": "?",
+      "moveName": "Down Tilt",
+      "gifs": [
+        "dtilt.gif"
+      ]
+    },
+    "usmash": {
+      "FAF": 42,
+      "chargeFrame": 2,
+      "hitboxActive": "7-9/10-17",
+      "damage": "18/13%",
+      "angle": "80/361",
+      "BKB": "30/10",
+      "WBKB": "0",
+      "KBG": "112/100",
+      "shieldDamage": "?",
+      "moveName": "Up Smash",
+      "invulnerability": "1-9 (head not snout)",
+      "gifs": [
+        "usmash.gif"
+      ]
+    },
+    "fsmash": {
+      "FAF": 40,
+      "chargeFrame": 7,
+      "hitboxActive": "12-16/17-22",
+      "damage": "15/12%",
+      "angle": "361",
+      "BKB": "10",
+      "WBKB": "0",
+      "KBG": "105",
+      "shieldDamage": "?",
+      "moveName": "Forward Smash",
+      "gifs": [
+        "fsmash.gif"
+      ]
+    },
+    "dsmash": {
+      "FAF": 46,
+      "chargeFrame": 2,
+      "hitboxActive": "6-10",
+      "damage": "15/12%",
+      "angle": "25/361",
+      "BKB": "20",
+      "WBKB": "0",
+      "KBG": "65",
+      "shieldDamage": "?",
+      "moveName": "Down Smash",
+      "invulnerability": "6 (legs)",
+      "gifs": [
+        "dsmash.gif"
+      ]
+    }
+  },
+  "aerials": {
+    "nair": {
+      "FAF": 42,
+      "autoCancelBefore": 4,
+      "autoCancelAfter": 36,
+      "landingLag": 15,
+      "lcancelledLandingLag": 7,
+      "hitboxActive": "4-7/8-31",
+      "damage": "12/9%",
+      "angle": "361",
+      "BKB": "10/0",
+      "WBKB": "0",
+      "KBG": "100",
+      "shieldDamage": "?",
+      "moveName": "Neutral Air",
+      "gifs": [
+        "nair.gif"
+      ]
+    },
+    "uair": {
+      "FAF": 36,
+      "autoCancelBefore": 8,
+      "autoCancelAfter": 25,
+      "landingLag": 18,
+      "lcancelledLandingLag": 9,
+      "hitboxActive": "8-9/11-14",
+      "damage": "5/13%",
+      "angle": "92/85",
+      "BKB": "0/40",
+      "WBKB": "30/0",
+      "KBG": "120/116",
+      "shieldDamage": "?",
+      "moveName": "Up Air",
+      "gifs": [
+        "uair.gif"
+      ]
+    },
+    "fair": {
+      "FAF": 53,
+      "autoCancelBefore": 6,
+      "autoCancelAfter": 48,
+      "landingLag": 22,
+      "lcancelledLandingLag": 11,
+      "hitboxActive": "6-8/16-18/24-26/33-35/43-45",
+      "damage": "7/6/5/4/3%",
+      "angle": "361",
+      "BKB": "10/50",
+      "WBKB": "0",
+      "KBG": "100",
+      "shieldDamage": "?",
+      "moveName": "Forward Air",
+      "gifs": [
+        "fair.gif"
+      ]
+    },
+    "dair": {
+      "FAF": 50,
+      "autoCancelBefore": 5,
+      "autoCancelAfter": 30,
+      "landingLag": 18,
+      "lcancelledLandingLag": 9,
+      "hitboxActive": "5-6/8-9/11-12/14-15/17-18/20-21/23-24",
+      "damage": "2-3% (7 hits)",
+      "angle": "290",
+      "BKB": "0",
+      "WBKB": "30",
+      "KBG": "100",
+      "shieldDamage": "?",
+      "moveName": "Down Air",
+      "gifs": [
+        "dair.gif"
+      ]
+    },
+    "bair": {
+      "FAF": 38,
+      "autoCancelBefore": 4,
+      "autoCancelAfter": 23,
+      "landingLag": 20,
+      "lcancelledLandingLag": 10,
+      "hitboxActive": "4-7/8-19",
+      "damage": "15/9%",
+      "angle": "361",
+      "BKB": "?",
+      "WBKB": "?",
+      "KBG": "100",
+      "shieldDamage": "?",
+      "moveName": "Back Air",
+      "gifs": [
+        "bair.gif"
+      ]
+    }
+  },
+  "specials": {
+    "neutralB": {
+      "FAF": 36,
+      "hitboxActive": "10/20/30/etc",
+      "damage": "2-3%",
+      "angle": "?",
+      "BKB": "?",
+      "WBKB": "?",
+      "KBG": "?",
+      "shieldDamage": "?",
+      "moveName": "Neutral Special (Blaster)",
+      "autoCancelAfter": "landing",
+      "gifs": [
+        "neutralB_grounded.gif",
+        "neutralB_aerial.gif"
+      ]
+    },
+    "upB": {
+      "FAF": 92,
+      "hitboxActive": "20, 22, 24, 26, 28, 30, 32, 43-72",
+      "damage": "2% (charge) 14% (dash)",
+      "angle": "?",
+      "BKB": "?",
+      "WBKB": "?",
+      "KBG": "?",
+      "shieldDamage": "?",
+      "moveName": "Up Special (Firefox)",
+      "gifs": [
+        "upB.gif"
+      ]
+    },
+    "sideB": {
+      "FAF": 63,
+      "IASA": "",
+      "hitboxActive": "22-25",
+      "damage": "7%",
+      "angle": "?",
+      "BKB": "?",
+      "WBKB": "?",
+      "KBG": "?",
+      "shieldDamage": "?",
+      "moveName": "Side Special (Fox Illusion)",
+      "gifs": [
+        "sideB_grounded.gif",
+        "sideB_aerial.gif"
+      ]
+    },
+    "downB": {
+      "FAF": 39,
+      "hitboxActive": "1",
+      "damage": "5%",
+      "angle": "?",
+      "BKB": "?",
+      "WBKB": "?",
+      "KBG": "?",
+      "shieldDamage": "?",
+      "moveName": "Down Special (Reflector)",
+      "reflects": "4-21",
+      "gifs": [
+        "downB.gif"
+      ]
+    }
+  },
+  "grabsThrows": {
+    "grab": {
+      "FAF": 31,
+      "hitboxActive": "7-8",
+      "moveName": "Grab",
+      "gifs": []
+    },
+    "dashgrab": {
+      "FAF": 40,
+      "hitboxActive": "12-13",
+      "moveName": "Dash Grab",
+      "gifs": []
+    },
+    "pummel": {
+      "FAF": 23,
+      "hitboxActive": "4",
+      "damage": "3%",
+      "angle": "80",
+      "BKB": "0",
+      "WBKB": "30",
+      "KBG": "100",
+      "shieldDamage": "?",
+      "moveName": "Pummel",
+      "gifs": []
+    },
+    "uthrow": {
+      "FAF": 38,
+      "hitboxActive": "18/20/24",
+      "damage": "2% (throw) 2% (shots)",
+      "angle": "?",
+      "BKB": "?",
+      "WBKB": "?",
+      "KBG": "?",
+      "shieldDamage": "?",
+      "moveName": "Up Throw",
+      "gifs": []
+    },
+    "fthrow": {
+      "FAF": 33,
+      "hitboxActive": "10",
+      "damage": "4% (hit 1) 3% (throw)",
+      "angle": "55",
+      "BKB": "35",
+      "WBKB": "0",
+      "KBG": "120",
+      "shieldDamage": "1",
+      "moveName": "Forward Throw",
+      "gifs": []
+    },
+    "dthrow": {
+      "FAF": 43,
+      "hitboxActive": "23/25/28/31",
+      "damage": "1% (throw) 1% (shots)",
+      "angle": "?",
+      "BKB": "?",
+      "WBKB": "?",
+      "KBG": "?",
+      "shieldDamage": "?",
+      "moveName": "Down Throw",
+      "gifs": []
+    },
+    "bthrow": {
+      "FAF": 38,
+      "hitboxActive": "15/18/21",
+      "damage": "2% (throw) 2% (shots)",
+      "angle": "56",
+      "BKB": "80",
+      "WBKB": "",
+      "KBG": "85",
+      "shieldDamage": "?",
+      "moveName": "Back Throw",
+      "gifs": []
+    }
+  },
+  "misc": {
+    "ledgeStandUnder100": {
+      "FAF": "?",
+      "invulnerability": "?",
+      "moveName": "Ledge stand under 100%",
+      "gifs": []
+    },
+    "ledgeStandOver100": {
+      "FAF": "?",
+      "invulnerability": "?",
+      "moveName": "Ledge stand over 100%",
+      "gifs": []
+    },
+    "ledgeRollUnder100": {
+      "FAF": "?",
+      "invulnerability": "?",
+      "moveName": "Ledge roll under 100%",
+      "gifs": []
+    },
+    "ledgeRollOver100": {
+      "FAF": "?",
+      "invulnerability": "?",
+      "moveName": "Ledge roll over 100%",
+      "gifs": []
+    },
+    "ledgeAttackUnder100": {
+      "hitboxActive": "?",
+      "FAF": "?",
+      "damage": "6/8%",
+      "BKB": "?",
+      "WBKB": "?",
+      "KBG": "?",
+      "invulnerability": "?",
+      "moveName": "Ledge attack under 100%",
+      "gifs": []
+    },
+    "ledgeAttackOver100": {
+      "hitboxActive": "?",
+      "FAF": "?",
+      "damage": "6/8%",
+      "BKB": "?",
+      "WBKB": "?",
+      "KBG": "?",
+      "invulnerability": "?",
+      "moveName": "Ledge attack over 100%",
+      "gifs": []
+    },
+    "ledgeJumpUnder100": {
+      "FAF": "?",
+      "invulnerability": "?",
+      "moveName": "Ledge jump under 100%",
+      "gifs": []
+    },
+    "ledgeJumpOver100": {
+      "FAF": "?",
+      "invulnerability": "?",
+      "moveName": "Ledge jump over 100%",
+      "gifs": []
+    },
+    "getUpAttack": {
+      "hitboxActive": "?",
+      "FAF": "?",
+      "damage": "6%",
+      "invulnerability": "?",
+      "BKB": "?",
+      "WBKB": "?",
+      "KBG": "?",
+      "moveName": "Get Up attack",
+      "gifs": []
+    },
+    "airDodge": {
+      "FAF": 49,
+      "invulnerability": "4-29",
+      "moveName": "Air Dodge",
+      "gifs": [
+        "airDodge.gif"
+      ]
+    },
+    "spotDodge": {
+      "FAF": 22,
+      "invulnerability": "2-15",
+      "moveName": "Spot Dodge",
+      "gifs": [
+        "spotDodge.gif"
+      ]
+    },
+    "forwardRoll": {
+      "FAF": 31,
+      "invulnerability": "4-19",
+      "moveName": "Forward Roll",
+      "gifs": [
+        "forwardRoll.gif"
+      ]
+    },
+    "backwardsRoll": {
+      "FAF": 31,
+      "invulnerability": "4-19",
+      "moveName": "Backwards Roll",
+      "gifs": [
+        "backwardsRoll.gif"
+      ]
+    }
+  }
+}

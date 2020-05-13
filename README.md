@@ -15,7 +15,7 @@ Smash Stats is an application built with React to be a resource for the many dif
 * Create a domain
 * Clean up the data
 * Frame Data for the other games
-* Gifs
+* ~~Gifs~~
 * Shieldstun
 * Game scripts
 * Patch scripts differences
@@ -23,3 +23,5 @@ Smash Stats is an application built with React to be a resource for the many dif
 * Character Attributes
 * Kirby Hats
 * Connect with a Discord bot
+* Specials landing lag
+* Add set knockback attribute
