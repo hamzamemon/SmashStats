@@ -1,33 +1,37 @@
 class Character {
 	constructor(data, game) {
 		this.name = data.name;
-		this.formattedName = this.name.toLowerCase().replace(/\./g, '').replace(/ /g, '_').replace(/&/g, 'and');
+		this.formattedName = this.name
+			.toLowerCase()
+			.replace(/\./g, '')
+			.replace(/ /g, '_')
+			.replace(/&/g, 'and');
 		this.game = game;
 
 		this.normals = {};
-		Object.entries(data.normals).map(([key, value]) => {
+		for (const [key, value] of Object.entries(data.normals)) {
 			this.normals[key] = value;
-		});
+		}
 
 		this.aerials = {};
-		Object.entries(data.aerials).map(([key, value]) => {
+		for (const [key, value] of Object.entries(data.aerials)) {
 			this.aerials[key] = value;
-		});
+		}
 
 		this.specials = {};
-		Object.entries(data.specials).map(([key, value]) => {
+		for (const [key, value] of Object.entries(data.specials)) {
 			this.specials[key] = value;
-		});
+		}
 
 		this.grabsThrows = {};
-		Object.entries(data.grabsThrows).map(([key, value]) => {
+		for (const [key, value] of Object.entries(data.grabsThrows)) {
 			this.grabsThrows[key] = value;
-		});
+		}
 
 		this.misc = {};
-		Object.entries(data.misc).map(([key, value]) => {
+		for (const [key, value] of Object.entries(data.misc)) {
 			this.misc[key] = value;
-		});
+		}
 	}
 }
 
