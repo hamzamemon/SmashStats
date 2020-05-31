@@ -114,7 +114,9 @@
       "moveName": "Up Smash",
       "chargeFrame": 7,
       "invulnerability": "9-11 (head)",
-      "gifs": []
+      "gifs": [
+        "usmash.gif"
+      ]
     },
     "fsmash": {
       "FAF": 42,
@@ -144,7 +146,9 @@
       "shieldDamage": "?",
       "moveName": "Down Smash",
       "chargeFrame": 3,
-      "gifs": []
+      "gifs": [
+        "dsmash.gif"
+      ]
     }
   },
   "aerials": {
@@ -162,7 +166,9 @@
       "KBG": "100",
       "shieldDamage": "?",
       "moveName": "Neutral Air",
-      "gifs": []
+      "gifs": [
+        "nair.gif"
+      ]
     },
     "uair": {
       "FAF": 33,
@@ -178,7 +184,9 @@
       "KBG": "100",
       "shieldDamage": "?",
       "moveName": "Up Air",
-      "gifs": []
+      "gifs": [
+        "uair.gif"
+      ]
     },
     "fair": {
       "FAF": 74,
@@ -195,7 +203,9 @@
       "KBG": "100",
       "shieldDamage": "?",
       "moveName": "Forward Air",
-      "gifs": []
+      "gifs": [
+        "fair.gif"
+      ]
     },
     "dair": {
       "FAF": 38,
@@ -230,7 +240,9 @@
       "KBG": "65/65/100/100",
       "shieldDamage": "?",
       "moveName": "Back Air",
-      "gifs": []
+      "gifs": [
+        "bair.gif"
+      ]
     }
   },
   "specials": {
@@ -244,7 +256,9 @@
       "KBG": "?",
       "shieldDamage": "?",
       "moveName": "Up Special (Megavitamins)",
-      "gifs": []
+      "gifs": [
+        "neutralB.png"
+      ]
     },
     "upB": {
       "FAF": 37,
@@ -296,13 +310,17 @@
       "FAF": 30,
       "hitboxActive": "7-8",
       "moveName": "Grab",
-      "gifs": []
+      "gifs": [
+        "grab.gif"
+      ]
     },
     "dashgrab": {
       "FAF": 40,
       "hitboxActive": "11-12",
       "moveName": "Dash Grab",
-      "gifs": []
+      "gifs": [
+        "dashgrab.gif"
+      ]
     },
     "pummel": {
       "FAF": 23,
@@ -434,25 +452,33 @@
       "FAF": 48,
       "invulnerability": "4-29",
       "moveName": "Air Dodge",
-      "gifs": []
+      "gifs": [
+        "airDodge.gif"
+      ]
     },
     "spotdodge": {
       "FAF": 22,
       "invulnerability": "2-15",
       "moveName": "Spot Dodge",
-      "gifs": []
+      "gifs": [
+        "spotDodge.gif"
+      ]
     },
     "forwardRoll": {
       "FAF": 31,
       "invulnerability": "4-19",
       "moveName": "Forward Roll",
-      "gifs": []
+      "gifs": [
+        "forwardRoll.gif"
+      ]
     },
     "backwardsRoll": {
       "FAF": 31,
       "invulnerability": "4-19",
       "moveName": "Backwards Roll",
-      "gifs": []
+      "gifs": [
+        "backwardsRoll.gif"
+      ]
     }
   }
 }

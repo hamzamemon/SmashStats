@@ -278,13 +278,17 @@
       "FAF": 31,
       "hitboxActive": "7-8",
       "moveName": "Grab",
-      "gifs": []
+      "gifs": [
+        "grab.gif"
+      ]
     },
     "dashgrab": {
       "FAF": 39,
       "hitboxActive": "8-9",
       "moveName": "Dash Grab",
-      "gifs": []
+      "gifs": [
+        "dashgrab.gif"
+      ]
     },
     "pummel": {
       "FAF": 23,

@@ -303,14 +303,18 @@
       "FAF": 40,
       "hitboxActive": "9-10",
       "moveName": "Grab",
-      "gifs": []
+      "gifs": [
+        "grab.gif"
+      ]
     },
     "dashgrab": {
       "FAF": 50,
       "IASA": "",
       "hitboxActive": "10-12",
       "moveName": "Dash Grab",
-      "gifs": []
+      "gifs": [
+        "dashgrab.gif"
+      ]
     },
     "pummel": {
       "FAF": 23,
