@@ -1,380 +1,2566 @@
 {
   "name": "Bowser",
   "normals": {
-    "jab1": {
-      "FAF": 24,
-      "hitboxActive": "7-9",
-      "damage": "5%",
-      "angle": "83",
-      "BKB": "0",
-      "WBKB": "20",
-      "KBG": "100",
-      "shieldDamage": "?",
+    "Attack11": {
+      "FAF": "24",
+      "IASA": "21",
+      "hitFrames": [
+        {
+          "start": 7,
+          "end": 9,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 38,
+              "damage": 5,
+              "size": 3.9215686274509802,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 83,
+              "KBG": 100,
+              "FKB": 20,
+              "hitboxInteraction": 3,
+              "BKB": 0,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 35,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 0,
+              "groupId": 0
+            },
+            {
+              "id": 1,
+              "bone": 34,
+              "damage": 5,
+              "size": 3.9215686274509802,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 83,
+              "KBG": 100,
+              "FKB": 20,
+              "hitboxInteraction": 3,
+              "BKB": 0,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 35,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 1,
+              "groupId": 0
+            },
+            {
+              "id": 2,
+              "bone": 31,
+              "damage": 5,
+              "size": 1.9607843137254901,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 83,
+              "KBG": 100,
+              "FKB": 20,
+              "hitboxInteraction": 3,
+              "BKB": 0,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 35,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 2,
+              "groupId": 0
+            }
+          ]
+        }
+      ],
       "moveName": "Jab 1",
-      "gifs": [
-        "jab1.gif"
-      ]
+        "gifs": [
+          "jab1.gif"
+        ]
     },
-    "jab2": {
-      "FAF": 30,
-      "hitboxActive": "9-11",
-      "damage": "6%",
-      "angle": "361",
-      "BKB": "30",
-      "WBKB": "0",
-      "KBG": "110",
-      "shieldDamage": "?",
+    "Attack12": {
+      "FAF": "29",
+      "IASA": "26",
+      "hitFrames": [
+        {
+          "start": 8,
+          "end": 10,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 65,
+              "damage": 6,
+              "size": 4.313725490196078,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 361,
+              "KBG": 110,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 30,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 35,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 0,
+              "groupId": 0
+            },
+            {
+              "id": 1,
+              "bone": 61,
+              "damage": 6,
+              "size": 3.9215686274509802,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 361,
+              "KBG": 110,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 30,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 35,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 1,
+              "groupId": 0
+            },
+            {
+              "id": 2,
+              "bone": 61,
+              "damage": 6,
+              "size": 1.9607843137254901,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 361,
+              "KBG": 110,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 30,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 35,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 2,
+              "groupId": 0
+            }
+          ]
+        }
+      ],
       "moveName": "Jab 2",
-      "gifs": [
-        "jab2.gif"
-      ]
+        "gifs": [
+          "jab2.gif"
+        ]
     },
-    "dashattack": {
-      "FAF": 59,
-      "IASA": 56,
-      "hitboxActive": "10-13/14-17",
-      "damage": "11/11/8/11%",
-      "angle": "80",
-      "BKB": "120/120/80/120",
-      "WBKB": "0",
-      "KBG": "30",
-      "shieldDamage": "1",
+    "AttackDash": {
+      "FAF": "59",
+      "IASA": "56",
+      "hitFrames": [
+        {
+          "start": 10,
+          "end": 13,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 1,
+              "damage": 11,
+              "size": 6.2745098039215685,
+              "x": 11.764705882352942,
+              "y": 15.686274509803921,
+              "z": 0.0,
+              "angle": 80,
+              "KBG": 30,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 120,
+              "element": "normal",
+              "shieldDamage": 1,
+              "sfx": 34,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 0,
+              "groupId": 0
+            },
+            {
+              "id": 1,
+              "bone": 1,
+              "damage": 11,
+              "size": 6.2745098039215685,
+              "x": 0.0,
+              "y": 15.686274509803921,
+              "z": 0.0,
+              "angle": 80,
+              "KBG": 30,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 120,
+              "element": "normal",
+              "shieldDamage": 1,
+              "sfx": 34,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 1,
+              "groupId": 0
+            }
+          ]
+        },
+        {
+          "start": 14,
+          "end": 17,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 1,
+              "damage": 8,
+              "size": 6.2745098039215685,
+              "x": 13.72549019607843,
+              "y": 15.686274509803921,
+              "z": 0.0,
+              "angle": 80,
+              "KBG": 30,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 80,
+              "element": "normal",
+              "shieldDamage": 1,
+              "sfx": 34,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 2,
+              "groupId": 1
+            },
+            {
+              "id": 1,
+              "bone": 1,
+              "damage": 11,
+              "size": 6.2745098039215685,
+              "x": 0.0,
+              "y": 15.686274509803921,
+              "z": 0.0,
+              "angle": 80,
+              "KBG": 30,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 120,
+              "element": "normal",
+              "shieldDamage": 1,
+              "sfx": 34,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 1,
+              "groupId": 0
+            }
+          ]
+        }
+      ],
       "moveName": "Dash Attack",
-      "gifs": [
-        "dashattack.gif"
-      ]
+        "gifs": [
+          "dashattack.gif"
+        ]
     },
-    "utilt": {
-      "FAF": 54,
-      "IASA": 50,
-      "hitboxActive": "7-10",
-      "damage": "13%",
-      "angle": "100",
-      "BKB": "40",
-      "WBKB": "0",
-      "KBG": "120",
-      "shieldDamage": "?",
+    "AttackHi3": {
+      "FAF": "54",
+      "IASA": "50",
+      "hitFrames": [
+        {
+          "start": 7,
+          "end": 10,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 38,
+              "damage": 13,
+              "size": 6.666666666666667,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 100,
+              "KBG": 120,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 35,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 0,
+              "groupId": 0
+            },
+            {
+              "id": 1,
+              "bone": 34,
+              "damage": 13,
+              "size": 4.705882352941177,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 100,
+              "KBG": 120,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 35,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 1,
+              "groupId": 0
+            }
+          ]
+        }
+      ],
       "moveName": "Up Tilt",
-      "gifs": [
-        "utilt.gif"
-      ]
+        "gifs": [
+          "utilt.gif"
+        ]
     },
-    "ftilt": {
-      "FAF": 47,
-      "IASA": 37,
-      "hitboxActive": "12-16",
-      "damage": "13/15% (upwards) 14/12/13% (neutral) 11/13% (downwards)",
-      "angle": "361",
-      "BKB": "29 (upwards) 25 (neutral) 31/32/31 (downwards)",
-      "WBKB": "0",
-      "KBG": "100",
-      "shieldDamage": "?",
-      "moveName": "Forward Tilt",
-      "gifs": [
-        "ftilt_upwards.gif",
-        "ftilt_neutral.gif",
-        "ftilt_downwards.gif"
-      ]
+    "AttackS3Hi": {
+      "FAF": "47",
+      "IASA": "37",
+      "hitFrames": [
+        {
+          "start": 12,
+          "end": 16,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 31,
+              "damage": 15,
+              "size": 3.1372549019607843,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 361,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 29,
+              "element": "normal",
+              "shieldDamage": 0,
+              "sfx": 34,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 0,
+              "groupId": 0
+            },
+            {
+              "id": 1,
+              "bone": 38,
+              "damage": 13,
+              "size": 5.882352941176471,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 361,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 29,
+              "element": "normal",
+              "shieldDamage": 0,
+              "sfx": 34,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 1,
+              "groupId": 1
+            },
+            {
+              "id": 2,
+              "bone": 34,
+              "damage": 15,
+              "size": 4.705882352941177,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 361,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 29,
+              "element": "normal",
+              "shieldDamage": 0,
+              "sfx": 34,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 2,
+              "groupId": 0
+            }
+          ]
+        }
+      ],
+      "moveName": "Forward Tilt Upwards",
+        "gifs": [
+          "ftilt_upwards.gif"
+        ]
     },
-    "dtilt": {
-      "FAF": 59,
-      "hitboxActive": "14-18/27-30",
-      "damage": "13/13/10/10%",
-      "angle": "361",
-      "BKB": "15/15/12/12",
-      "WBKB": "0",
-      "KBG": "100",
-      "shieldDamage": "?",
+    "AttackS3": {
+      "FAF": "47",
+      "IASA": "37",
+      "hitFrames": [
+        {
+          "start": 12,
+          "end": 16,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 31,
+              "damage": 14,
+              "size": 3.1372549019607843,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 361,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 25,
+              "element": "normal",
+              "shieldDamage": 0,
+              "sfx": 34,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 0,
+              "groupId": 0
+            },
+            {
+              "id": 1,
+              "bone": 38,
+              "damage": 12,
+              "size": 5.882352941176471,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 361,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 25,
+              "element": "normal",
+              "shieldDamage": 0,
+              "sfx": 34,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 1,
+              "groupId": 1
+            },
+            {
+              "id": 2,
+              "bone": 34,
+              "damage": 13,
+              "size": 4.705882352941177,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 361,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 25,
+              "element": "normal",
+              "shieldDamage": 0,
+              "sfx": 34,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 2,
+              "groupId": 2
+            }
+          ]
+        }
+      ],
+      "moveName": "Forward Tilt Neutral",
+        "gifs": [
+          "ftilt_neutral.gif"
+        ]
+    },
+    "AttackS3Lw": {
+      "FAF": "47",
+      "IASA": "37",
+      "hitFrames": [
+        {
+          "start": 12,
+          "end": 16,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 31,
+              "damage": 13,
+              "size": 3.1372549019607843,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 361,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 31,
+              "element": "normal",
+              "shieldDamage": 0,
+              "sfx": 34,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 0,
+              "groupId": 0
+            },
+            {
+              "id": 1,
+              "bone": 38,
+              "damage": 11,
+              "size": 5.882352941176471,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 361,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 32,
+              "element": "normal",
+              "shieldDamage": 0,
+              "sfx": 34,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 1,
+              "groupId": 1
+            },
+            {
+              "id": 2,
+              "bone": 34,
+              "damage": 13,
+              "size": 4.705882352941177,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 361,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 31,
+              "element": "normal",
+              "shieldDamage": 0,
+              "sfx": 34,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 2,
+              "groupId": 0
+            }
+          ]
+        }
+      ],
+      "moveName": "Forward Tilt Downwards",
+        "gifs": [
+          "ftilt_downwards.gif"
+        ]
+    },
+    "AttackLw3": {
+      "FAF": "59",
+      "IASA": "55",
+      "hitFrames": [
+        {
+          "start": 14,
+          "end": 18,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 65,
+              "damage": 13,
+              "size": 5.490196078431373,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 361,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 15,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 2,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 0,
+              "groupId": 0
+            },
+            {
+              "id": 1,
+              "bone": 61,
+              "damage": 13,
+              "size": 4.705882352941177,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 361,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 15,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 2,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 1,
+              "groupId": 0
+            }
+          ]
+        },
+        {
+          "start": 27,
+          "end": 31,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 38,
+              "damage": 10,
+              "size": 5.490196078431373,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 361,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 12,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 2,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 2,
+              "groupId": 1
+            },
+            {
+              "id": 1,
+              "bone": 34,
+              "damage": 10,
+              "size": 4.705882352941177,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 361,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 12,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 2,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 3,
+              "groupId": 1
+            }
+          ]
+        }
+      ],
       "moveName": "Down Tilt",
-      "gifs": [
-        "dtilt.gif"
-      ]
+        "gifs": [
+          "dtilt.gif"
+        ]
     },
-    "usmash": {
-      "FAF": 59,
-      "chargeFrame": 10,
-      "IASA": 53,
-      "hitboxActive": "16-21/30",
-      "damage": "20/20/12/12%",
-      "angle": "90/90/74/74",
-      "BKB": "40/40/60/60",
-      "WBKB": "0",
-      "KBG": "86/86/100/100",
-      "shieldDamage": "?",
+    "AttackHi4": {
+      "FAF": "59",
+      "chargeFrame": "10",
+      "IASA": "53",
+      "hitFrames": [
+        {
+          "start": 16,
+          "end": 21,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 1,
+              "damage": 20,
+              "size": 8.235294117647058,
+              "x": 0.0,
+              "y": 12.549019607843137,
+              "z": 0.0,
+              "angle": 90,
+              "KBG": 86,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 72,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 0,
+              "groupId": 0
+            },
+            {
+              "id": 1,
+              "bone": 1,
+              "damage": 17,
+              "size": 7.0588235294117645,
+              "x": 0.0,
+              "y": 14.509803921568627,
+              "z": 0.0,
+              "angle": 90,
+              "KBG": 86,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 72,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 1,
+              "groupId": 1
+            }
+          ]
+        },
+        {
+          "start": 30,
+          "end": 30,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 1,
+              "damage": 12,
+              "size": 4.705882352941177,
+              "x": -3.9215686274509802,
+              "y": 12.549019607843137,
+              "z": 0.0,
+              "angle": 74,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 60,
+              "element": "normal",
+              "shieldDamage": 0,
+              "sfx": 66,
+              "hitGrounded": true,
+              "hitAirborne": false,
+              "guid": 2,
+              "groupId": 2
+            },
+            {
+              "id": 1,
+              "bone": 1,
+              "damage": 12,
+              "size": 4.705882352941177,
+              "x": 3.9215686274509802,
+              "y": 12.549019607843137,
+              "z": 0.0,
+              "angle": 74,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 60,
+              "element": "normal",
+              "shieldDamage": 0,
+              "sfx": 66,
+              "hitGrounded": true,
+              "hitAirborne": false,
+              "guid": 3,
+              "groupId": 2
+            }
+          ]
+        }
+      ],
       "moveName": "Up Smash",
-      "invulnerability": "16-17",
-      "gifs": [
-        "usmash.gif"
-      ]
+        "gifs": [
+          "usmash.gif"
+        ]
     },
-    "fsmash": {
-      "FAF": 69,
-      "chargeFrame": 10,
-      "IASA": 66,
-      "hitboxActive": "29-33",
-      "damage": "24%",
-      "angle": "361/60",
-      "BKB": "30",
-      "WBKB": "",
-      "KBG": "100",
-      "shieldDamage": "?",
+    "AttackS4": {
+      "FAF": "69",
+      "chargeFrame": "10",
+      "IASA": "66",
+      "hitFrames": [
+        {
+          "start": 29,
+          "end": 33,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 47,
+              "damage": 24,
+              "size": 6.2745098039215685,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 361,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 30,
+              "element": "normal",
+              "shieldDamage": 0,
+              "sfx": 72,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 0,
+              "groupId": 0
+            },
+            {
+              "id": 1,
+              "bone": 48,
+              "damage": 24,
+              "size": 7.8431372549019605,
+              "x": 0.0,
+              "y": 2.3529411764705883,
+              "z": 0.0,
+              "angle": 60,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 30,
+              "element": "normal",
+              "shieldDamage": 0,
+              "sfx": 65,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 1,
+              "groupId": 1
+            }
+          ]
+        }
+      ],
       "moveName": "Forward Smash",
-      "gifs": [
-        "fsmash.gif"
-      ]
+        "gifs": [
+          "fsmash.gif"
+        ]
     },
-    "dsmash": {
-      "FAF": 69,
-      "chargeFrame": 8,
-      "IASA": 68,
-      "hitboxActive": "14-15/17-18/20-21/23-24/26-27/29-30/32-33",
-      "damage": "2% (hits 1-6) 10% (hit 7)",
-      "angle": "?",
-      "BKB": "40",
-      "WBKB": "",
-      "KBG": "?",
-      "shieldDamage": "?",
+    "AttackLw4": {
+      "FAF": "69",
+      "chargeFrame": "8",
+      "IASA": "68",
+      "hitFrames": [
+        {
+          "start": 14,
+          "end": 15,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 0,
+              "damage": 2,
+              "size": 5.490196078431373,
+              "x": -15.686274509803921,
+              "y": 3.9215686274509802,
+              "z": 0.0,
+              "angle": 150,
+              "KBG": 50,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 0,
+              "groupId": 0
+            },
+            {
+              "id": 1,
+              "bone": 0,
+              "damage": 2,
+              "size": 5.490196078431373,
+              "x": 15.686274509803921,
+              "y": 3.9215686274509802,
+              "z": 0.0,
+              "angle": 150,
+              "KBG": 50,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 1,
+              "groupId": 0
+            },
+            {
+              "id": 2,
+              "bone": 0,
+              "damage": 2,
+              "size": 5.490196078431373,
+              "x": -10.980392156862745,
+              "y": 16.862745098039216,
+              "z": 0.0,
+              "angle": 190,
+              "KBG": 50,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 2,
+              "groupId": 1
+            },
+            {
+              "id": 3,
+              "bone": 0,
+              "damage": 2,
+              "size": 5.490196078431373,
+              "x": 10.980392156862745,
+              "y": 16.862745098039216,
+              "z": 0.0,
+              "angle": 190,
+              "KBG": 50,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 3,
+              "groupId": 1
+            }
+          ]
+        },
+        {
+          "start": 17,
+          "end": 18,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 0,
+              "damage": 2,
+              "size": 5.490196078431373,
+              "x": -15.686274509803921,
+              "y": 3.9215686274509802,
+              "z": 0.0,
+              "angle": 150,
+              "KBG": 50,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 4,
+              "groupId": 0
+            },
+            {
+              "id": 1,
+              "bone": 0,
+              "damage": 2,
+              "size": 5.490196078431373,
+              "x": 15.686274509803921,
+              "y": 3.9215686274509802,
+              "z": 0.0,
+              "angle": 150,
+              "KBG": 50,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 5,
+              "groupId": 0
+            },
+            {
+              "id": 2,
+              "bone": 0,
+              "damage": 2,
+              "size": 5.490196078431373,
+              "x": -10.980392156862745,
+              "y": 16.862745098039216,
+              "z": 0.0,
+              "angle": 190,
+              "KBG": 50,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 6,
+              "groupId": 1
+            },
+            {
+              "id": 3,
+              "bone": 0,
+              "damage": 2,
+              "size": 5.490196078431373,
+              "x": 10.980392156862745,
+              "y": 16.862745098039216,
+              "z": 0.0,
+              "angle": 190,
+              "KBG": 50,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 7,
+              "groupId": 1
+            }
+          ]
+        },
+        {
+          "start": 20,
+          "end": 21,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 0,
+              "damage": 2,
+              "size": 5.490196078431373,
+              "x": -15.686274509803921,
+              "y": 3.9215686274509802,
+              "z": 0.0,
+              "angle": 150,
+              "KBG": 50,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 8,
+              "groupId": 0
+            },
+            {
+              "id": 1,
+              "bone": 0,
+              "damage": 2,
+              "size": 5.490196078431373,
+              "x": 15.686274509803921,
+              "y": 3.9215686274509802,
+              "z": 0.0,
+              "angle": 150,
+              "KBG": 50,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 9,
+              "groupId": 0
+            },
+            {
+              "id": 2,
+              "bone": 0,
+              "damage": 2,
+              "size": 5.490196078431373,
+              "x": -10.980392156862745,
+              "y": 16.862745098039216,
+              "z": 0.0,
+              "angle": 190,
+              "KBG": 50,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 10,
+              "groupId": 1
+            },
+            {
+              "id": 3,
+              "bone": 0,
+              "damage": 2,
+              "size": 5.490196078431373,
+              "x": 10.980392156862745,
+              "y": 16.862745098039216,
+              "z": 0.0,
+              "angle": 190,
+              "KBG": 50,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 11,
+              "groupId": 1
+            }
+          ]
+        },
+        {
+          "start": 23,
+          "end": 24,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 0,
+              "damage": 2,
+              "size": 5.490196078431373,
+              "x": -15.686274509803921,
+              "y": 3.9215686274509802,
+              "z": 0.0,
+              "angle": 150,
+              "KBG": 50,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 12,
+              "groupId": 0
+            },
+            {
+              "id": 1,
+              "bone": 0,
+              "damage": 2,
+              "size": 5.490196078431373,
+              "x": 15.686274509803921,
+              "y": 3.9215686274509802,
+              "z": 0.0,
+              "angle": 150,
+              "KBG": 50,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 13,
+              "groupId": 0
+            },
+            {
+              "id": 2,
+              "bone": 0,
+              "damage": 2,
+              "size": 5.490196078431373,
+              "x": -10.980392156862745,
+              "y": 16.862745098039216,
+              "z": 0.0,
+              "angle": 190,
+              "KBG": 50,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 14,
+              "groupId": 1
+            },
+            {
+              "id": 3,
+              "bone": 0,
+              "damage": 2,
+              "size": 5.490196078431373,
+              "x": 10.980392156862745,
+              "y": 16.862745098039216,
+              "z": 0.0,
+              "angle": 190,
+              "KBG": 50,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 15,
+              "groupId": 1
+            }
+          ]
+        },
+        {
+          "start": 26,
+          "end": 27,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 0,
+              "damage": 2,
+              "size": 5.490196078431373,
+              "x": -15.686274509803921,
+              "y": 3.9215686274509802,
+              "z": 0.0,
+              "angle": 150,
+              "KBG": 50,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 16,
+              "groupId": 0
+            },
+            {
+              "id": 1,
+              "bone": 0,
+              "damage": 2,
+              "size": 5.490196078431373,
+              "x": 15.686274509803921,
+              "y": 3.9215686274509802,
+              "z": 0.0,
+              "angle": 150,
+              "KBG": 50,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 17,
+              "groupId": 0
+            },
+            {
+              "id": 2,
+              "bone": 0,
+              "damage": 2,
+              "size": 5.490196078431373,
+              "x": -10.980392156862745,
+              "y": 16.862745098039216,
+              "z": 0.0,
+              "angle": 190,
+              "KBG": 50,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 18,
+              "groupId": 1
+            },
+            {
+              "id": 3,
+              "bone": 0,
+              "damage": 2,
+              "size": 5.490196078431373,
+              "x": 10.980392156862745,
+              "y": 16.862745098039216,
+              "z": 0.0,
+              "angle": 190,
+              "KBG": 50,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 19,
+              "groupId": 1
+            }
+          ]
+        },
+        {
+          "start": 29,
+          "end": 30,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 0,
+              "damage": 2,
+              "size": 5.490196078431373,
+              "x": -15.686274509803921,
+              "y": 3.9215686274509802,
+              "z": 0.0,
+              "angle": 150,
+              "KBG": 50,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 20,
+              "groupId": 0
+            },
+            {
+              "id": 1,
+              "bone": 0,
+              "damage": 2,
+              "size": 5.490196078431373,
+              "x": 15.686274509803921,
+              "y": 3.9215686274509802,
+              "z": 0.0,
+              "angle": 150,
+              "KBG": 50,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 21,
+              "groupId": 0
+            },
+            {
+              "id": 2,
+              "bone": 0,
+              "damage": 2,
+              "size": 5.490196078431373,
+              "x": -10.980392156862745,
+              "y": 16.862745098039216,
+              "z": 0.0,
+              "angle": 190,
+              "KBG": 50,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 22,
+              "groupId": 1
+            },
+            {
+              "id": 3,
+              "bone": 0,
+              "damage": 2,
+              "size": 5.490196078431373,
+              "x": 10.980392156862745,
+              "y": 16.862745098039216,
+              "z": 0.0,
+              "angle": 190,
+              "KBG": 50,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 23,
+              "groupId": 1
+            }
+          ]
+        },
+        {
+          "start": 32,
+          "end": 33,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 0,
+              "damage": 2,
+              "size": 5.490196078431373,
+              "x": -15.686274509803921,
+              "y": 3.9215686274509802,
+              "z": 0.0,
+              "angle": 150,
+              "KBG": 50,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 24,
+              "groupId": 0
+            },
+            {
+              "id": 1,
+              "bone": 0,
+              "damage": 2,
+              "size": 5.490196078431373,
+              "x": 15.686274509803921,
+              "y": 3.9215686274509802,
+              "z": 0.0,
+              "angle": 150,
+              "KBG": 50,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 25,
+              "groupId": 0
+            },
+            {
+              "id": 2,
+              "bone": 0,
+              "damage": 2,
+              "size": 5.490196078431373,
+              "x": -10.980392156862745,
+              "y": 16.862745098039216,
+              "z": 0.0,
+              "angle": 190,
+              "KBG": 50,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 26,
+              "groupId": 1
+            },
+            {
+              "id": 3,
+              "bone": 0,
+              "damage": 2,
+              "size": 5.490196078431373,
+              "x": 10.980392156862745,
+              "y": 16.862745098039216,
+              "z": 0.0,
+              "angle": 190,
+              "KBG": 50,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 27,
+              "groupId": 1
+            }
+          ]
+        },
+        {
+          "start": 35,
+          "end": 35,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 0,
+              "damage": 10,
+              "size": 12.549019607843137,
+              "x": 0.0,
+              "y": 11.764705882352942,
+              "z": 0.0,
+              "angle": 90,
+              "KBG": 140,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 40,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 72,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 28,
+              "groupId": 2
+            }
+          ]
+        }
+      ],
       "moveName": "Down Smash",
-      "gifs": [
-        "dsmash.gif"
-      ]
+        "gifs": [
+          "dsmash.gif"
+        ]
     }
   },
   "aerials": {
-    "nair": {
-      "FAF": 49,
-      "IASA": 48,
-      "autoCancelBefore": 8,
-      "autoCancelAfter": 39,
-      "landingLag": 30,
-      "lcancelledLandingLag": 15,
-      "hitboxActive": "8-23",
-      "damage": "13%",
-      "angle": "361",
-      "BKB": "20",
-      "WBKB": "",
-      "KBG": "80",
-      "shieldDamage": "?",
+    "AttackAirN": {
+      "FAF": "49",
+      "IASA": "48",
+      "autoCancelBefore": "8",
+      "autoCancelAfter": "39",
+      "landingLag": "30",
+      "lcancelledLandingLag": "15",
+      "hitFrames": [
+        {
+          "start": 8,
+          "end": 23,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 30,
+              "damage": 13,
+              "size": 9.803921568627452,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 361,
+              "KBG": 80,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 20,
+              "element": "normal",
+              "shieldDamage": 0,
+              "sfx": 65,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 0,
+              "groupId": 0
+            }
+          ]
+        }
+      ],
       "moveName": "Neutral Air",
-      "gifs": [
-        "nair.gif"
-      ]
+        "gifs": [
+          "nair.gif"
+        ]
     },
-    "uair": {
-      "FAF": 47,
-      "IASA": 45,
-      "autoCancelBefore": 10,
-      "autoCancelAfter": 39,
-      "landingLag": 30,
-      "lcancelledLandingLag": 15,
-      "hitboxActive": "22-25",
-      "damage": "17%",
-      "angle": "85",
-      "BKB": "50",
-      "WBKB": "",
-      "KBG": "100",
-      "shieldDamage": "?",
+    "AttackAirU": {
+      "FAF": "47",
+      "IASA": "45",
+      "autoCancelBefore": "10",
+      "autoCancelAfter": "39",
+      "landingLag": "30",
+      "lcancelledLandingLag": "15",
+      "hitFrames": [
+        {
+          "start": 22,
+          "end": 25,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 48,
+              "damage": 17,
+              "size": 8.627450980392156,
+              "x": 0.0,
+              "y": 2.3529411764705883,
+              "z": 0.0,
+              "angle": 85,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 50,
+              "element": "normal",
+              "shieldDamage": 0,
+              "sfx": 65,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 0,
+              "groupId": 0
+            }
+          ]
+        }
+      ],
       "moveName": "Up Air",
-      "gifs": [
-        "uair.gif"
-      ]
+        "gifs": [
+          "uair.gif"
+        ]
     },
-    "fair": {
-      "FAF": 45,
-      "IASA": 42,
-      "autoCancelBefore": 9,
-      "autoCancelAfter": 30,
-      "landingLag": 30,
-      "lcancelledLandingLag": 15,
-      "hitboxActive": "8-11",
-      "damage": "14/12/11%",
-      "angle": "361",
-      "BKB": "50",
-      "WBKB": "0",
-      "KBG": "80",
-      "shieldDamage": "?",
+    "AttackAirF": {
+      "FAF": "45",
+      "IASA": "42",
+      "autoCancelBefore": "9",
+      "autoCancelAfter": "30",
+      "landingLag": "30",
+      "lcancelledLandingLag": "15",
+      "hitFrames": [
+        {
+          "start": 8,
+          "end": 11,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 38,
+              "damage": 14,
+              "size": 6.2745098039215685,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 361,
+              "KBG": 80,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 50,
+              "element": "normal",
+              "shieldDamage": 0,
+              "sfx": 65,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 0,
+              "groupId": 0
+            },
+            {
+              "id": 1,
+              "bone": 34,
+              "damage": 12,
+              "size": 4.705882352941177,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 361,
+              "KBG": 80,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 50,
+              "element": "normal",
+              "shieldDamage": 0,
+              "sfx": 65,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 1,
+              "groupId": 1
+            },
+            {
+              "id": 2,
+              "bone": 60,
+              "damage": 11,
+              "size": 4.705882352941177,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 361,
+              "KBG": 80,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 50,
+              "element": "normal",
+              "shieldDamage": 0,
+              "sfx": 65,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 2,
+              "groupId": 2
+            }
+          ]
+        }
+      ],
       "moveName": "Forward Air",
-      "gifs": [
-        "fair.gif"
-      ]
+        "gifs": [
+          "fair.gif"
+        ]
     },
-    "dair": {
-      "FAF": 79,
-      "IASA": 78,
-      "autoCancelBefore": 14,
-      "autoCancelAfter": 69,
-      "landingLag": 40,
-      "lcancelledLandingLag": 20,
-      "hitboxActive": "14-15/17-18/20-21/23-24/26-27/29-30/32-33/35-36/38-39",
-      "damage": "3% (hits 1-9) 2% (landing)",
-      "angle": "80",
-      "BKB": "0",
-      "WBKB": "10",
-      "KBG": "100",
-      "shieldDamage": "?",
+    "AttackAirLw": {
+      "FAF": "79",
+      "IASA": "78",
+      "autoCancelBefore": "14",
+      "autoCancelAfter": "69",
+      "landingLag": "40",
+      "lcancelledLandingLag": "20",
+      "hitFrames": [
+        {
+          "start": 14,
+          "end": 15,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 30,
+              "damage": 3,
+              "size": 9.411764705882353,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 80,
+              "KBG": 100,
+              "FKB": 10,
+              "hitboxInteraction": 3,
+              "BKB": 0,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 3,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 0,
+              "groupId": 0
+            }
+          ]
+        },
+        {
+          "start": 17,
+          "end": 18,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 30,
+              "damage": 3,
+              "size": 9.411764705882353,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 80,
+              "KBG": 100,
+              "FKB": 10,
+              "hitboxInteraction": 3,
+              "BKB": 0,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 3,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 1,
+              "groupId": 0
+            }
+          ]
+        },
+        {
+          "start": 20,
+          "end": 21,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 30,
+              "damage": 3,
+              "size": 9.411764705882353,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 80,
+              "KBG": 100,
+              "FKB": 10,
+              "hitboxInteraction": 3,
+              "BKB": 0,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 3,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 2,
+              "groupId": 0
+            }
+          ]
+        },
+        {
+          "start": 23,
+          "end": 24,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 30,
+              "damage": 3,
+              "size": 9.411764705882353,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 80,
+              "KBG": 100,
+              "FKB": 10,
+              "hitboxInteraction": 3,
+              "BKB": 0,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 3,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 3,
+              "groupId": 0
+            }
+          ]
+        },
+        {
+          "start": 26,
+          "end": 27,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 30,
+              "damage": 3,
+              "size": 9.411764705882353,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 80,
+              "KBG": 100,
+              "FKB": 10,
+              "hitboxInteraction": 3,
+              "BKB": 0,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 3,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 4,
+              "groupId": 0
+            }
+          ]
+        },
+        {
+          "start": 29,
+          "end": 30,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 30,
+              "damage": 3,
+              "size": 9.411764705882353,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 80,
+              "KBG": 100,
+              "FKB": 10,
+              "hitboxInteraction": 3,
+              "BKB": 0,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 3,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 5,
+              "groupId": 0
+            }
+          ]
+        },
+        {
+          "start": 32,
+          "end": 33,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 30,
+              "damage": 3,
+              "size": 9.411764705882353,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 80,
+              "KBG": 100,
+              "FKB": 10,
+              "hitboxInteraction": 3,
+              "BKB": 0,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 3,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 6,
+              "groupId": 0
+            }
+          ]
+        },
+        {
+          "start": 35,
+          "end": 36,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 30,
+              "damage": 3,
+              "size": 9.411764705882353,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 80,
+              "KBG": 100,
+              "FKB": 10,
+              "hitboxInteraction": 3,
+              "BKB": 0,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 3,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 7,
+              "groupId": 0
+            }
+          ]
+        },
+        {
+          "start": 38,
+          "end": 39,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 30,
+              "damage": 3,
+              "size": 9.411764705882353,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 80,
+              "KBG": 100,
+              "FKB": 10,
+              "hitboxInteraction": 3,
+              "BKB": 0,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 3,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 8,
+              "groupId": 0
+            }
+          ]
+        },
+        {
+          "start": 41,
+          "end": 42,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 30,
+              "damage": 3,
+              "size": 9.411764705882353,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 80,
+              "KBG": 100,
+              "FKB": 10,
+              "hitboxInteraction": 3,
+              "BKB": 0,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 3,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 9,
+              "groupId": 0
+            }
+          ]
+        }
+      ],
       "moveName": "Down Air",
-      "gifs": [
-        "dair.gif"
-      ]
+        "gifs": [
+          "dair.gif"
+        ]
     },
-    "bair": {
-      "FAF": 49,
-      "autoCancelBefore": 9,
-      "autoCancelAfter": 44,
-      "landingLag": 35,
-      "lcancelledLandingLag": 17,
-      "hitboxActive": "9-10/11-17",
-      "damage": "13/9%",
-      "angle": "24/361",
-      "BKB": "25",
-      "WBKB": "?",
-      "KBG": "80",
-      "shieldDamage": "?",
+    "AttackAirB": {
+      "FAF": "49",
+      "IASA": "",
+      "autoCancelBefore": "9",
+      "autoCancelAfter": "44",
+      "landingLag": "35",
+      "lcancelledLandingLag": "17",
+      "hitFrames": [
+        {
+          "start": 9,
+          "end": 10,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 29,
+              "damage": 13,
+              "size": 8.627450980392156,
+              "x": -3.1372549019607843,
+              "y": 2.3529411764705883,
+              "z": 0.0,
+              "angle": 24,
+              "KBG": 80,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 25,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 67,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 0,
+              "groupId": 0
+            }
+          ]
+        },
+        {
+          "start": 11,
+          "end": 17,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 29,
+              "damage": 9,
+              "size": 8.627450980392156,
+              "x": -3.1372549019607843,
+              "y": 2.3529411764705883,
+              "z": 0.0,
+              "angle": 361,
+              "KBG": 80,
+              "FKB": 0,
+              "hitboxInteraction": 3,
+              "BKB": 25,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 35,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 1,
+              "groupId": 1
+            }
+          ]
+        }
+      ],
       "moveName": "Back Air",
-      "gifs": [
-        "bair.gif"
-      ]
-    }
-  },
-  "specials": {
-    "neutralB": {
-      "FAF": 21,
-      "hitboxActive": "23/26/29/32/35/etc",
-      "damage": "2%",
-      "angle": "?",
-      "BKB": "?",
-      "WBKB": "?",
-      "KBG": "?",
-      "shieldDamage": "?",
-      "moveName": "Neutral Special (Fire Breath)",
-      "gifs": [
-        "neutralB.gif"
-      ]
-    },
-    "upB": {
-      "FAF": "79 (grounded) 49 (aerial)",
-      "hitboxActive": "5-6/7-10/11-14/15-18/19-22/23-26/27-30/31-34/35-38/39-42/43-46/47-50/51-54",
-      "damage": "13/5/3% (ground) 10/3/2% (aerial)",
-      "angle": "?",
-      "BKB": "?",
-      "WBKB": "?",
-      "KBG": "?",
-      "shieldDamage": "?",
-      "moveName": "Up Special (Whirling Fortress)",
-      "invulnerability": "1-4 (grounded)",
-      "gifs": [
-        "upB_grounded.gif",
-        "upB_aerial.gif"
-      ]
-    },
-    "sideB": {
-      "FAF": "59, 32 (bite), 40 (backwards throw), 43 (forwards throw)",
-      "hitboxActive": "16-18 (grab) 19-23 (bite) 14 (backwards throw release) 24 (forwards throw release)",
-      "damage": "12/10% (slash) 4% (bite capture) 3% (bite pummel) 5% (release) 15% (forwards throw) 11% (backwards throw)",
-      "angle": "0/0/80/80",
-      "BKB": "0/0/80/80",
-      "WBKB": "0",
-      "KBG": "100/100/90/90",
-      "shieldDamage": "?",
-      "moveName": "Side Special (Koopa Klaw)",
-      "gifs": [
-        "sideB_grounded.gif",
-        "sideB_aerial.gif"
-      ]
-    },
-    "downB": {
-      "FAF": 106,
-      "hitboxActive": "42-47 (grounded) 32-landing (aerial)",
-      "damage": "21% (drop) 8% (landing)",
-      "angle": "80",
-      "BKB": "0/140",
-      "WBKB": "?",
-      "KBG": "0/15",
-      "shieldDamage": "?",
-      "moveName": "Down Special (Bowser Bomb)",
-      "gifs": [
-        "downB_grounded.gif",
-        "downB_aerial.gif"
-      ]
+        "gifs": [
+          "bair.gif"
+        ]
     }
   },
   "grabsThrows": {
-    "grab": {
-      "FAF": 40,
-      "hitboxActive": "9-10",
-      "moveName": "Grab",
-      "gifs": [
-        "grab.gif"
-      ]
-    },
-    "dashgrab": {
-      "FAF": 50,
+    "Catch": {
+      "FAF": "39",
       "IASA": "",
-      "hitboxActive": "10-12",
+      "hitFrames": [
+        {
+          "start": 8,
+          "end": 9,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 0,
+              "damage": 0,
+              "size": 4.705882352941177,
+              "x": 21.176470588235293,
+              "y": 9.803921568627452,
+              "z": 0.0,
+              "angle": 361,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 2,
+              "BKB": 0,
+              "element": "grab",
+              "shieldDamage": 0,
+              "sfx": 34,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 0,
+              "groupId": 0
+            },
+            {
+              "id": 1,
+              "bone": 0,
+              "damage": 0,
+              "size": 3.5294117647058822,
+              "x": 14.509803921568627,
+              "y": 9.803921568627452,
+              "z": 0.0,
+              "angle": 361,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 2,
+              "BKB": 0,
+              "element": "grab",
+              "shieldDamage": 0,
+              "sfx": 34,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 1,
+              "groupId": 0
+            },
+            {
+              "id": 2,
+              "bone": 0,
+              "damage": 0,
+              "size": 2.7450980392156863,
+              "x": 7.8431372549019605,
+              "y": 9.803921568627452,
+              "z": 0.0,
+              "angle": 361,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 2,
+              "BKB": 0,
+              "element": "grab",
+              "shieldDamage": 0,
+              "sfx": 34,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 2,
+              "groupId": 0
+            }
+          ]
+        }
+      ],
+      "moveName": "Grab",
+        "gifs": [
+          "grab.gif"
+        ]
+    },
+    "CatchDash": {
+      "FAF": "49",
+      "IASA": "",
+      "hitFrames": [
+        {
+          "start": 9,
+          "end": 11,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 0,
+              "damage": 0,
+              "size": 4.705882352941177,
+              "x": 25.098039215686274,
+              "y": 10.588235294117647,
+              "z": 0.0,
+              "angle": 361,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 2,
+              "BKB": 0,
+              "element": "grab",
+              "shieldDamage": 0,
+              "sfx": 34,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 0,
+              "groupId": 0
+            },
+            {
+              "id": 1,
+              "bone": 0,
+              "damage": 0,
+              "size": 3.5294117647058822,
+              "x": 18.431372549019606,
+              "y": 9.803921568627452,
+              "z": 0.0,
+              "angle": 361,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 2,
+              "BKB": 0,
+              "element": "grab",
+              "shieldDamage": 0,
+              "sfx": 34,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 1,
+              "groupId": 0
+            },
+            {
+              "id": 2,
+              "bone": 0,
+              "damage": 0,
+              "size": 2.7450980392156863,
+              "x": 11.764705882352942,
+              "y": 10.588235294117647,
+              "z": 0.0,
+              "angle": 361,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 2,
+              "BKB": 0,
+              "element": "grab",
+              "shieldDamage": 0,
+              "sfx": 34,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 2,
+              "groupId": 0
+            }
+          ]
+        }
+      ],
       "moveName": "Dash Grab",
-      "gifs": [
-        "dashgrab.gif"
-      ]
+        "gifs": [
+          "dashgrab.gif"
+        ]
     },
-    "pummel": {
-      "FAF": 23,
-      "hitboxActive": "9-9",
-      "damage": "3%",
-      "angle": "80",
-      "BKB": "?",
-      "WBKB": "30",
-      "KBG": "100",
-      "shieldDamage": "?",
-      "moveName": "Pummel",
-      "gifs": []
+    "CatchAttack": {
+      "FAF": "23",
+      "IASA": "",
+      "hitFrames": [
+        {
+          "start": 9,
+          "end": 9,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 48,
+              "damage": 3,
+              "size": 9.803921568627452,
+              "x": 0.0,
+              "y": 5.490196078431373,
+              "z": 5.490196078431373,
+              "angle": 80,
+              "KBG": 100,
+              "FKB": 30,
+              "hitboxInteraction": 1,
+              "BKB": 0,
+              "element": "normal",
+              "shieldDamage": 0,
+              "sfx": 2,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 0,
+              "groupId": 0
+            }
+          ]
+        }
+      ],
+      "moveName": "Pummel"
     },
-    "uthrow": {
-      "FAF": 69,
-      "hitboxActive": "20-23/24-27/28-31/32-35/36-39/40-43/44-47/48-51/52-55",
-      "damage": "1% (hits 1-8) 2% (throw)",
-      "angle": "?",
-      "BKB": "?",
-      "WBKB": "?",
-      "KBG": "100",
-      "shieldDamage": "?",
-      "moveName": "Up Throw",
-      "gifs": []
+    "ThrowHi": {
+      "FAF": "69",
+      "IASA": "",
+      "throw": {
+        "damage": 2,
+        "angle": 70,
+        "KBG": 100,
+        "FKB": 30,
+        "BKB": 0,
+        "element": 0
+      },
+      "hitFrames": [
+        {
+          "start": 20,
+          "end": 23,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 1,
+              "damage": 1,
+              "size": 7.8431372549019605,
+              "x": 1.5686274509803921,
+              "y": 19.607843137254903,
+              "z": 0.0,
+              "angle": 0,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 0,
+              "BKB": 0,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 3,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 0,
+              "groupId": 0
+            }
+          ]
+        },
+        {
+          "start": 24,
+          "end": 27,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 1,
+              "damage": 1,
+              "size": 7.8431372549019605,
+              "x": 1.5686274509803921,
+              "y": 19.607843137254903,
+              "z": 0.0,
+              "angle": 0,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 0,
+              "BKB": 0,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 3,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 1,
+              "groupId": 0
+            }
+          ]
+        },
+        {
+          "start": 28,
+          "end": 31,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 1,
+              "damage": 1,
+              "size": 7.8431372549019605,
+              "x": 1.5686274509803921,
+              "y": 19.607843137254903,
+              "z": 0.0,
+              "angle": 0,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 0,
+              "BKB": 0,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 3,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 2,
+              "groupId": 0
+            }
+          ]
+        },
+        {
+          "start": 32,
+          "end": 35,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 1,
+              "damage": 1,
+              "size": 7.8431372549019605,
+              "x": 1.5686274509803921,
+              "y": 19.607843137254903,
+              "z": 0.0,
+              "angle": 0,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 0,
+              "BKB": 0,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 3,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 3,
+              "groupId": 0
+            }
+          ]
+        },
+        {
+          "start": 36,
+          "end": 39,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 1,
+              "damage": 1,
+              "size": 7.8431372549019605,
+              "x": 1.5686274509803921,
+              "y": 19.607843137254903,
+              "z": 0.0,
+              "angle": 0,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 0,
+              "BKB": 0,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 3,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 4,
+              "groupId": 0
+            }
+          ]
+        },
+        {
+          "start": 40,
+          "end": 43,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 1,
+              "damage": 1,
+              "size": 7.8431372549019605,
+              "x": 1.5686274509803921,
+              "y": 19.607843137254903,
+              "z": 0.0,
+              "angle": 0,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 0,
+              "BKB": 0,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 3,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 5,
+              "groupId": 0
+            }
+          ]
+        },
+        {
+          "start": 44,
+          "end": 47,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 1,
+              "damage": 1,
+              "size": 7.8431372549019605,
+              "x": 1.5686274509803921,
+              "y": 19.607843137254903,
+              "z": 0.0,
+              "angle": 0,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 0,
+              "BKB": 0,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 3,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 6,
+              "groupId": 0
+            }
+          ]
+        },
+        {
+          "start": 48,
+          "end": 51,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 1,
+              "damage": 1,
+              "size": 7.8431372549019605,
+              "x": 1.5686274509803921,
+              "y": 19.607843137254903,
+              "z": 0.0,
+              "angle": 0,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 0,
+              "BKB": 0,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 3,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 7,
+              "groupId": 0
+            }
+          ]
+        },
+        {
+          "start": 52,
+          "end": 55,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 1,
+              "damage": 1,
+              "size": 7.8431372549019605,
+              "x": 1.5686274509803921,
+              "y": 19.607843137254903,
+              "z": 0.0,
+              "angle": 0,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 0,
+              "BKB": 0,
+              "element": "slash",
+              "shieldDamage": 0,
+              "sfx": 3,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 8,
+              "groupId": 0
+            }
+          ]
+        }
+      ],
+      "moveName": "Up Throw"
     },
-    "fthrow": {
-      "FAF": 59,
-      "hitboxActive": "?",
-      "damage": "10%",
-      "angle": "?",
-      "BKB": "?",
-      "WBKB": "?",
-      "KBG": "?",
-      "shieldDamage": "?",
-      "moveName": "Forward Throw",
-      "gifs": []
+    "ThrowF": {
+      "FAF": "59",
+      "IASA": "",
+      "throw": {
+        "damage": 10,
+        "angle": 45,
+        "KBG": 50,
+        "FKB": 0,
+        "BKB": 15,
+        "element": 0
+      },
+      "hitFrames": [],
+      "moveName": "Forward Throw"
     },
-    "dthrow": {
-      "FAF": 84,
-      "hitboxActive": "47-47",
-      "damage": "12%",
-      "angle": "?",
-      "BKB": "?",
-      "WBKB": "?",
-      "KBG": "100",
-      "shieldDamage": "?",
-      "moveName": "Down Throw",
-      "gifs": []
+    "ThrowLw": {
+      "FAF": "84",
+      "IASA": "",
+      "throw": {
+        "damage": 0,
+        "angle": 50,
+        "KBG": 30,
+        "FKB": 0,
+        "BKB": 18,
+        "element": 12
+      },
+      "hitFrames": [
+        {
+          "start": 47,
+          "end": 47,
+          "hitboxes": [
+            {
+              "id": 0,
+              "bone": 29,
+              "damage": 12,
+              "size": 7.8431372549019605,
+              "x": 3.1372549019607843,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 0,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 1,
+              "BKB": 0,
+              "element": "normal",
+              "shieldDamage": 0,
+              "sfx": 66,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 0,
+              "groupId": 0
+            },
+            {
+              "id": 1,
+              "bone": 48,
+              "damage": 12,
+              "size": 7.8431372549019605,
+              "x": 3.1372549019607843,
+              "y": 0.0,
+              "z": 0.0,
+              "angle": 0,
+              "KBG": 100,
+              "FKB": 0,
+              "hitboxInteraction": 1,
+              "BKB": 0,
+              "element": "normal",
+              "shieldDamage": 0,
+              "sfx": 66,
+              "hitGrounded": true,
+              "hitAirborne": true,
+              "guid": 1,
+              "groupId": 0
+            }
+          ]
+        }
+      ],
+      "moveName": "Down Throw"
     },
-    "bthrow": {
-      "FAF": 39,
-      "hitboxActive": "?",
-      "damage": "10%",
-      "angle": "?",
-      "BKB": "?",
-      "WBKB": "?",
-      "KBG": "?",
-      "shieldDamage": "?",
-      "moveName": "Back Throw",
-      "gifs": []
+    "ThrowB": {
+      "FAF": "39",
+      "IASA": "",
+      "throw": {
+        "damage": 10,
+        "angle": 45,
+        "KBG": 50,
+        "FKB": 0,
+        "BKB": 15,
+        "element": 0
+      },
+      "hitFrames": [],
+      "moveName": "Back Throw"
     }
   },
   "misc": {
@@ -407,7 +2593,7 @@
       "FAF": 54,
       "damage": "8%",
       "BKB": "?",
-      "WBKB": "?",
+      "FKB": "?",
       "KBG": "?",
       "invulnerability": "1-34",
       "moveName": "Ledge attack under 100%",
@@ -418,7 +2604,7 @@
       "FAF": 69,
       "damage": "10%",
       "BKB": "?",
-      "WBKB": "?",
+      "FKB": "?",
       "KBG": "?",
       "invulnerability": "1-40",
       "moveName": "Ledge attack over 100%",
@@ -441,7 +2627,7 @@
       "FAF": "?",
       "damage": "6% (front) 12% (back)",
       "BKB": "?",
-      "WBKB": "?",
+      "FKB": "?",
       "KBG": "?",
       "invulnerability": "?",
       "moveName": "Get Up attack",
@@ -477,6 +2663,68 @@
       "moveName": "Backwards Roll",
       "gifs": [
         "backwardsRoll.gif"
+      ]
+    }
+  },
+  "specials": {
+    "SpecialN": {
+      "FAF": 21,
+      "hitboxActive": "23/26/29/32/35/etc",
+      "damage": "2%",
+      "angle": "?",
+      "BKB": "?",
+      "FKB": "?",
+      "KBG": "?",
+      "shieldDamage": "?",
+      "moveName": "Neutral Special (Fire Breath)",
+      "gifs": [
+        "neutralB.gif"
+      ]
+    },
+    "SpecialHi": {
+      "FAF": "79 (grounded) 49 (aerial)",
+      "hitboxActive": "5-6/7-10/11-14/15-18/19-22/23-26/27-30/31-34/35-38/39-42/43-46/47-50/51-54",
+      "damage": "13/5/3% (ground) 10/3/2% (aerial)",
+      "angle": "?",
+      "BKB": "?",
+      "FKB": "?",
+      "KBG": "?",
+      "shieldDamage": "?",
+      "moveName": "Up Special (Whirling Fortress)",
+      "invulnerability": "1-4 (grounded)",
+      "gifs": [
+        "upB_grounded.gif",
+        "upB_aerial.gif"
+      ]
+    },
+    "SpecialS": {
+      "FAF": "59, 32 (bite), 40 (backwards throw), 43 (forwards throw)",
+      "hitboxActive": "16-18 (grab) 19-23 (bite) 14 (backwards throw release) 24 (forwards throw release)",
+      "damage": "12/10% (slash) 4% (bite capture) 3% (bite pummel) 5% (release) 15% (forwards throw) 11% (backwards throw)",
+      "angle": "0/0/80/80",
+      "BKB": "0/0/80/80",
+      "FKB": "0",
+      "KBG": "100/100/90/90",
+      "shieldDamage": "?",
+      "moveName": "Side Special (Koopa Klaw)",
+      "gifs": [
+        "sideB_grounded.gif",
+        "sideB_aerial.gif"
+      ]
+    },
+    "SpecialLw": {
+      "FAF": 106,
+      "hitboxActive": "42-47 (grounded) 32-landing (aerial)",
+      "damage": "21% (drop) 8% (landing)",
+      "angle": "80",
+      "BKB": "0/140",
+      "FKB": "?",
+      "KBG": "0/15",
+      "shieldDamage": "?",
+      "moveName": "Down Special (Bowser Bomb)",
+      "gifs": [
+        "downB_grounded.gif",
+        "downB_aerial.gif"
       ]
     }
   }

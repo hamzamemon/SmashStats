@@ -30,55 +30,35 @@ class CharacterView extends Component {
 			const normalCards = Object.keys(self.characterData.normals).map((key) => {
 				var moveData = self.characterData.normals[key];
 				return (
-					<MoveCard
-						key={moveData.moveName}
-						move={moveData}
-						formattedName={this.characterData.formattedName}
-					/>
+					<MoveCard key={key} move={moveData} formattedName={this.characterData.formattedName} />
 				);
 			});
 
 			const aerialCards = Object.keys(self.characterData.aerials).map((key) => {
 				var moveData = self.characterData.aerials[key];
 				return (
-					<MoveCard
-						key={moveData.moveName}
-						move={moveData}
-						formattedName={this.characterData.formattedName}
-					/>
+					<MoveCard key={key} move={moveData} formattedName={this.characterData.formattedName} />
 				);
 			});
 
 			const specialCards = Object.keys(self.characterData.specials).map((key) => {
 				var moveData = self.characterData.specials[key];
 				return (
-					<MoveCard
-						key={moveData.moveName}
-						move={moveData}
-						formattedName={this.characterData.formattedName}
-					/>
+					<MoveCard key={key} move={moveData} formattedName={this.characterData.formattedName} />
 				);
 			});
 
 			const grabsThrowsCard = Object.keys(self.characterData.grabsThrows).map((key) => {
 				var moveData = self.characterData.grabsThrows[key];
 				return (
-					<MoveCard
-						key={moveData.moveName}
-						move={moveData}
-						formattedName={this.characterData.formattedName}
-					/>
+					<MoveCard key={key} move={moveData} formattedName={this.characterData.formattedName} />
 				);
 			});
 
 			const miscCard = Object.keys(self.characterData.misc).map((key) => {
 				var moveData = self.characterData.misc[key];
 				return (
-					<MoveCard
-						key={moveData.moveName}
-						move={moveData}
-						formattedName={this.characterData.formattedName}
-					/>
+					<MoveCard key={key} move={moveData} formattedName={this.characterData.formattedName} />
 				);
 			});
 
