@@ -2738,7 +2738,7 @@
         }
       ],
       "moveName": "Back Throw"
-    }
+    },
     "grab": {
       "FAF": 85,
       "hitboxActive": "10-13",
